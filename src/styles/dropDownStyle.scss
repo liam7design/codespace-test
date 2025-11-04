@@ -1,0 +1,32 @@
+.dropdownmodify.figmadropdowns .dropdown-content {
+  white-space: nowrap;
+}
+
+.dropdownmodify.figmadropdowns .dropdown-content a {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.dropdownmodify.figmadropdowns .dropdown-content a.activated {
+  background: rgba(42, 130, 240, 0.14);
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify.figmadropdowns button:focus {
+  background: #EAF3FD;
+  border: 1px solid #2A82F0;
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify.figmadropdowns button.dropbtn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  color: #000;
+}
+
+.dropdownmodify.figmadropdowns button.dropbtn img {
+  top: 10px;
+}

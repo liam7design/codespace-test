@@ -1,0 +1,185 @@
+.dropdownmodify {
+  position: relative;
+  float: left;
+}
+
+.dropdownmodify button.dropbtn {
+  background-color: #fff;
+  border: 1px solid #00000024;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  padding: 0 8px 7px 12px;
+  width: 130px;
+  text-overflow: ellipsis;
+  padding-right: 23px;
+  white-space: nowrap;
+}
+
+.dropdownmodify button.dropbtn img {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.dropdownmodify button.dropbtn svg {
+  position: absolute;
+  right: 8px;
+  top: 11px;
+}
+
+.dropdownmodify .dropdown-content {
+  min-width: 130px;
+  max-height: 50vh;
+  overflow-x: hidden;
+  padding-left: 0;
+  width: max-content;
+  padding-right: 0;
+  white-space: nowrap;
+}
+
+.dropdownmodify button:hover {
+  border: 1px solid #333333;
+}
+
+.dropdownmodify button:focus {
+  border: 1px solid #00a4e8;
+}
+
+.dropdownmodify .dropdown-content a:hover {
+  background: #f4f4f5;
+}
+
+.dropdownmodify .dropdown-content a {
+  padding-left: 10px;
+  border-radius: 0;
+}
+
+.dropdownmodify .dropdown-content a:focus {
+  color: #00a4e8;
+}
+
+.dropdownmodify .dropdown-content a.activated {
+  color: #00a4e8;
+}
+
+.dropdownmodify.perpagemodify button.dropbtn {
+  background: none;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: #000;
+  width: auto;
+}
+
+.dropdownmodify.perpagemodify button.dropbtn svg {
+  margin-left: 6px;
+  position: static;
+}
+
+.dropdownmodify.perpagemodify button.dropbtn:hover {
+  border: none;
+  background: none;
+}
+
+.dropdownmodify.modifydroporg button {
+  width: 100%;
+  max-width: 200px;
+}
+
+.dropdownmodify.modifydroporg {
+  width: 100%;
+}
+
+.top-action-area .select_box.select200 {
+  overflow: visible;
+}
+
+.dropdownmodify.modifydroporg button.dropbtn img {
+  top: 15px;
+}
+
+.dropdownmodify.modifydroporg button.dropbtn svg {
+  top: 15px;
+}
+
+.dropdownmodify.modifydroporg .dropdown-content {
+  top: 42px;
+}
+
+.dropdownmodify.modifydroporg button.dropbtn span {
+  float: left;
+  width: calc(100% - 20px);
+  overflow: hidden;
+}
+
+.frimp {
+  float: right !important;
+}
+
+.dropdownmodify.frimp {
+  margin-top: 0;
+}
+
+.dropdownmodify.modifydroporg.mT8.cusarrow button.dropbtn img {
+  position: relative;
+  top: 3px;
+  right: -21px;
+}
+
+.dropdownmodify.modifydroporg.mT8.cusarrow button.dropbtn svg {
+  position: relative;
+  top: 3px;
+  right: -21px;
+}
+
+.dropdownmodify.modifydroporg.mT8.cusarrow .dropdown-content {
+  top: 35px;
+}
+
+.drop-searchsection.cus-search-popup .dropdownmodify button {
+  width: 105px;
+  margin-top: -12px;
+  border-radius: 4px 0 0 4px;
+  margin-right: -8px;
+}
+
+.dropdownmodify .dropdown-content a {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.dropdownmodify .dropdown-content a.activated {
+  background: rgba(42, 130, 240, 0.14);
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify button:focus {
+  background: #eaf3fd;
+  border: 1px solid #2a82f0;
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify button.dropbtn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  color: #000;
+}
+
+.dropdownmodify button.dropbtn img {
+  top: 10px;
+}
+
+.all-checks-right .dropdownmodify button {
+  padding-right: 20px;
+}

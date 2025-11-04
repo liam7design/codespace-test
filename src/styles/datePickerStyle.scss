@@ -1,0 +1,269 @@
+.select_box.figma-select-boxing.date-boxes {
+  width: 84px;
+  height: auto;
+  overflow: visible;
+  float: left;
+  display: block;
+  margin-top: 9px;
+}
+
+.select_box.figma-select-boxing.date-boxes input {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0;
+  float: left;
+  padding-left: 8px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.select_box.figma-select-boxing.date-boxes button {
+  float: left;
+  width: 110px;
+}
+
+.select_box.figma-select-boxing.date-boxes.keyword-changes {
+  width: 110px;
+}
+
+.select_box.figma-select-boxing.date-boxes input:focus {
+  border: 1px solid rgba(42, 130, 240, 1);
+}
+
+.custom-datepicker {
+  width: 292px;
+  padding: 16px 10px 20px 10px;
+  position: absolute;
+  top: 34px;
+  left: -75%;
+  height: auto;
+  min-height: 232px;
+  z-index: 9;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.14);
+  background: #fff;
+}
+
+.year-month span {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  float: left;
+  display: block;
+}
+
+.year-month {
+  float: left;
+  width: 100%;
+  height: 20px;
+}
+
+.year-month img {
+  float: left;
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.year-month-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.weekdays ul {
+  padding: 0;
+  margin: 0;
+}
+
+.custom-datepicker .weekdays ul li {
+  display: block;
+  width: 28px;
+  float: left;
+  height: 28px;
+  margin-right: 0px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 12px;
+  padding: 2px;
+  user-select: none;
+}
+
+.custom-datepicker .weekdays ul li:last-child {
+  margin-right: 0;
+  color: #2A82F0;
+}
+
+.custom-datepicker .weekdays ul li:first-child {
+  margin-left: 0;
+  color: #ED3B2F;
+}
+
+.custom-datepicker .weekdays {
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.all-dates ul {
+  padding: 0;
+  margin: 0;
+}
+
+.custom-datepicker .all-dates ul li {
+  display: block;
+  width: 28px;
+  float: left;
+  height: 28px;
+  margin-right: 0px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 12px;
+  padding: 2px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-datepicker .all-dates ul li:last-child {
+  margin-right: 0;
+  color: #2A82F0;
+}
+
+.custom-datepicker .all-dates ul li:first-child {
+  margin-left: 0;
+  color: #ED3B2F;
+}
+
+.custom-datepicker .all-dates {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.custom-datepicker .all-dates ul {
+  float: left;
+  margin-top: 4px;
+}
+
+li.current-date {
+  color: rgba(42, 130, 240, 1);
+  background: rgba(42, 130, 240, 0.14);
+  border-radius: 28px;
+}
+
+li.today-date {
+  color: #fff;
+  background: #000;
+  border-radius: 28px;
+}
+
+li.selected-date {
+  color: #fff !important;
+  background: #2A82F0;
+  border-radius: 28px;
+}
+
+li.notpresent-month {
+  opacity: 0.3;
+}
+
+.custom-datepicker .all-dates ul li:hover {
+  color: rgba(42, 130, 240, 1);
+  background: rgba(42, 130, 240, 0.14);
+  border-radius: 28px;
+}
+
+.year-month-content svg {
+  cursor: pointer;
+  display: flex;
+  width: 20px !important;
+  height: 20px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.custom-datepicker.monthly-yearly {
+  min-height: 260px;
+  padding: 16px 10px 20px 10px;
+}
+
+.all-month-years {
+  float: none;
+  display: block;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.all-month-years ul {
+  float: left;
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.top-action-area .all-month-years ul>li {
+  display: block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  text-align: center;
+  margin-right: 12px;
+  margin-left: 0;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+}
+
+.all-month-years ul li:last-child {
+  margin-right: 0;
+}
+
+.all-month-years ul:first-child {
+  padding-top: 20px;
+}
+
+.all-month-years ul li.current-date {
+  font-weight: 700;
+}
+
+.all-month-years ul li.selected-date {
+  font-weight: 700;
+}
+
+.custom-datepicker em {
+  font-style: normal;
+  cursor: default;
+  user-select: none;
+}
+
+.custom-datepicker em:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.all-month-years ul li:hover {
+  color: rgba(42, 130, 240, 1);
+  background: rgba(42, 130, 240, 0.14);
+}
+
+.year-month-content span {
+  cursor: default;
+  user-select: none;
+}

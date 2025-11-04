@@ -1,0 +1,549 @@
+table.userlist tr th {
+  display: table-cell;
+  position: relative;
+  min-width: 130px;
+}
+
+table.userlist tr td {
+  display: table-cell;
+  min-width: 130px;
+}
+
+table.userlist tr th:nth-child(1) {
+  width: 9.01%;
+}
+
+table.userlist tr th:nth-child(2) {
+  width: 20.25%;
+}
+
+table.userlist tr th:nth-child(3) {
+  width: 17.80%;
+}
+
+table.userlist tr th:nth-child(4) {
+  width: 17.80%;
+}
+
+table.userlist tr th:nth-child(5) {
+  width: 17.80%;
+}
+
+table.userlist tr th:nth-child(6) {
+  width: 7.84%;
+}
+
+table.userlist tr th:nth-child(7) {
+  width: 9.50%;
+}
+
+table.userlist tr td:nth-child(1) {
+  width: 9.01%;
+}
+
+table.userlist tr td:nth-child(2) {
+  width: 20.25%;
+}
+
+table.userlist tr td:nth-child(3) {
+  width: 17.80%;
+}
+
+table.userlist tr td:nth-child(4) {
+  width: 17.80%;
+}
+
+table.userlist tr td:nth-child(5) {
+  width: 17.80%;
+}
+
+table.userlist tr td:nth-child(6) {
+  width: 7.84%;
+}
+
+table.userlist tr td:nth-child(7) {
+  width: 9.50%;
+}
+
+/* showDiv start*/
+table.userlist.showDiv tr th {
+  display: table-cell;
+  position: relative;
+  min-width: 146px;
+}
+
+table.userlist.showDiv tr td {
+  display: table-cell;
+  min-width: 146px;
+}
+
+table.userlist.showDiv tr th:nth-child(1) {
+  width: 9.03%;
+}
+
+table.userlist.showDiv tr th:nth-child(2) {
+  width: 18.56%;
+}
+
+table.userlist.showDiv tr th:nth-child(3) {
+  width: 13.74%;
+}
+
+table.userlist.showDiv tr th:nth-child(4) {
+  width: 13.74%;
+}
+
+table.userlist.showDiv tr th:nth-child(5) {
+  width: 13.74%;
+}
+
+table.userlist.showDiv tr th:nth-child(6) {
+  width: 11.14%;
+}
+
+table.userlist.showDiv tr th:nth-child(7) {
+  width: 7.18%;
+}
+
+table.userlist.showDiv tr th:nth-child(8) {
+  width: 12.87%;
+}
+
+table.userlist.showDiv tr td:nth-child(1) {
+  width: 9.03%;
+}
+
+table.userlist.showDiv tr td:nth-child(2) {
+  width: 18.56%;
+}
+
+table.userlist.showDiv tr td:nth-child(3) {
+  width: 13.74%;
+}
+
+table.userlist.showDiv tr td:nth-child(4) {
+  width: 13.74%;
+}
+
+table.userlist.showDiv tr td:nth-child(5) {
+  width: 13.74%;
+}
+
+table.userlist.showDiv tr td:nth-child(6) {
+  width: 11.14%;
+}
+
+table.userlist.showDiv tr td:nth-child(7) {
+  width: 7.18%;
+}
+
+table.userlist.showDiv tr td:nth-child(8) {
+  width: 12.87%;
+}
+
+/*showDiv end*/
+
+table.userlist.deviceinfo tr th {
+  min-width: 130px;
+}
+
+table.userlist.deviceinfo tr td {
+  min-width: 130px;
+}
+
+table.deviceinfo tr th:nth-child(1) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr th:nth-child(2) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr th:nth-child(3) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr th:nth-child(4) {
+  width: 12.80%;
+}
+
+table.deviceinfo tr th:nth-child(5) {
+  width: 24.90%;
+}
+
+table.deviceinfo tr th:nth-child(6) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr th:nth-child(7) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr td:nth-child(1) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr td:nth-child(2) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr td:nth-child(3) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr td:nth-child(4) {
+  width: 12.80%;
+}
+
+table.deviceinfo tr td:nth-child(5) {
+  width: 24.90%;
+}
+
+table.deviceinfo tr td:nth-child(6) {
+  width: 16.45%;
+}
+
+table.deviceinfo tr td:nth-child(7) {
+  width: 16.45%;
+}
+
+table.userlist.workspace tr th {
+  min-width: 316px;
+}
+
+table.userlist.workspace tr td {
+  min-width: 316px;
+}
+
+table.workspace tr th:nth-child(1) {
+  width: 19.67%;
+}
+
+table.workspace tr th:nth-child(2) {
+  width: 40.97%;
+}
+
+table.workspace tr th:nth-child(3) {
+  width: 19.67%;
+}
+
+table.workspace tr th:nth-child(4) {
+  width: 19.67%;
+}
+
+table.workspace tr td:nth-child(1) {
+  width: 19.67%;
+}
+
+table.workspace tr td:nth-child(2) {
+  width: 40.97%;
+}
+
+table.workspace tr td:nth-child(3) {
+  width: 19.67%;
+}
+
+table.workspace tr td:nth-child(4) {
+  width: 19.67%;
+}
+
+table.userlist.featurepolicy tr th {
+  min-width: 130px;
+}
+
+table.userlist.featurepolicy tr td {
+  min-width: 130px;
+}
+
+table.featurepolicy tr th:nth-child(1) {
+  width: 40.84%;
+}
+
+table.featurepolicy tr th:nth-child(2) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr th:nth-child(3) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr th:nth-child(4) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr th:nth-child(5) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr th:nth-child(6) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr td:nth-child(1) {
+  width: 40.84%;
+}
+
+table.featurepolicy tr td:nth-child(2) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr td:nth-child(3) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr td:nth-child(4) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr td:nth-child(5) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.featurepolicy tr td:nth-child(6) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.userlist.featurepolicy tr td {
+  word-break: break-word;
+}
+
+table.userlist.workspaceconfig tr th {
+  min-width: 270px;
+}
+
+table.userlist.workspaceconfig tr td {
+  min-width: 270px;
+  overflow: unset;
+  word-break: break-word;
+  text-overflow: unset;
+  white-space: normal;
+}
+
+table.workspaceconfig tr th:nth-child(1) {
+  width: 40.84%;
+}
+
+table.workspaceconfig tr th:nth-child(2) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr th:nth-child(3) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr th:nth-child(4) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr th:nth-child(5) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr td:nth-child(1) {
+  width: 40.84%;
+}
+
+table.workspaceconfig tr td:nth-child(2) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr td:nth-child(3) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr td:nth-child(4) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.workspaceconfig tr td:nth-child(5) {
+  width: 13%;
+  min-width: 200px;
+}
+
+table.userlist.featurepolicy tr td:hover>span.britytooltip {
+  display: none;
+}
+
+table.userlist.featurepolicy tr td span.twoline-tooltip:hover+span.britytooltip {
+  display: block !important;
+}
+
+table.userlist.featurepolicy tr td:last-child span.twoline-tooltip:hover+span.britytooltip {
+  right: 8px
+}
+
+table.userlist.workspaceconfig tr td:hover>span.britytooltip {
+  display: none;
+}
+
+table.userlist.workspaceconfig tr td span.twoline-tooltip:hover+span.britytooltip {
+  display: block !important;
+}
+
+/* for two line tooltip */
+span.twoline-tooltip {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-width: 100%;
+  overflow: hidden;
+  width: max-content;
+  word-wrap: normal;
+  padding-right: 0;
+  text-align: left;
+  word-break: break-word;
+}
+
+table.userlist tr:last-child td:hover>span.britytooltip {
+  display: block;
+  top: unset;
+  bottom: 35px;
+}
+
+/* new heading row added */
+tr.heading-strip {
+  background: #F7F7F7;
+  opacity: 1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.90);
+}
+
+tr.heading-strip td {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.90);
+}
+
+/* new heading row added */
+
+button.reset {
+  height: 28px;
+  padding: 5px 8px 6px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  float: left;
+  margin-left: 8px;
+  margin-top: -6px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+button.reset:hover {
+  display: flex;
+  max-width: 134px;
+  padding: 6px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--c-border-hover, rgba(0, 0, 0, 0.35));
+  background: var(--c-bg-opacity-hover, rgba(0, 0, 0, 0.06));
+}
+
+button.reset:active {
+  display: flex;
+  max-width: 134px;
+  padding: 6px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--c-border-selected, #2A82F0);
+  background: var(--c-bg-solid-selected, #EAF3FD);
+}
+
+span.km-only {
+  color: #2a82f0 !important;
+}
+
+span.kt-only {
+  color: #ff2205 !important;
+}
+
+.dropdownmodify.user-status .dropdown-content {
+  min-width: 130px;
+  max-height: 50vh;
+  overflow-x: hidden;
+  padding-left: 0;
+  width: 100%;
+  padding-right: 0;
+  white-space: nowrap;
+}
+
+/* New Brity Css  tabng and all */
+.brity-tabmenu.brity-newtabbing ul li {
+  font-size: 14px;
+  padding: 10px 16px;
+  color: #000;
+}
+
+.general-info-brity.details-divided>ul {
+  width: 49.5%;
+  display: block;
+  float: left;
+}
+
+span.tip {
+  display: block;
+  float: left;
+  width: 100%;
+}
+span.tip em {
+  width: 24px;
+  height: 16px;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 11px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button.dwnload-selections.dwnl-excel {
+  width: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+button.dwnload-selections.dwnl-excel svg {
+  margin-right: 4px;
+}
+
+.general-info-brity.details-divided ul li > label {
+  width: 136px;
+}
+
+.britypopup-box.smallsize.autosizepopup.charSetting .main-buttonaction {
+  padding-top: 20px;
+}
+
+.britypopup-box.smallsize.autosizepopup.charSetting span.characters {
+  bottom: -10px;
+}

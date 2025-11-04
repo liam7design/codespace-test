@@ -1,0 +1,354 @@
+.mid-content {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 340px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  bottom: 0;
+  height: auto;
+}
+
+.img-login {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.mid-content input[type='text'],
+input[type='password'] {
+  height: 40px;
+  padding: 5px 13px;
+  font-size: 17px;
+  background: #ffffff;
+  margin: 5px 0;
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+
+.check-list {
+  float: left;
+  color: #666666;
+  font-size: 12px;
+}
+
+.mid-content button {
+  height: 40px;
+  padding: 8px 127px;
+  font-size: 18px;
+  background: #44c5ed;
+  border: none;
+  margin: 12px 0;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.check-list span {
+  margin-left: 9px;
+}
+
+.login {
+  flex: 1;
+}
+
+svg.logo {
+  width: 25%;
+  margin-right: 257px;
+}
+
+.img-login span {
+  font-size: 33px;
+  font-weight: bold;
+  margin-left: 85px;
+  position: absolute;
+  left: -43px;
+  bottom: -30px;
+  width: 100%;
+}
+
+.img-login.second {
+  margin-bottom: 13px;
+}
+
+span.second-version {
+  font-size: 20px;
+  bottom: 5px;
+  right: -91px;
+  left: unset;
+}
+
+span.logo-text {
+  font-size: 43px;
+  margin-bottom: 53px;
+  margin-left: 92px;
+}
+
+.login-main-container .dropdownmodify.language-drops {
+  color: #666666;
+  font-size: 12px;
+  margin-top: -14px;
+}
+
+.login-main-container button.dropbtn span {
+  color: #000;
+  font-weight: bold;
+}
+
+.login-main-container .dropdownmodify.language-drops .dropdown-content {
+  top: 27px;
+}
+
+.login-main-container .checkbox-text {
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+.login-main-container .check-list span {
+  margin-left: 3px;
+}
+
+.langugae-selector .dropdownmodify.language-drops {
+  margin-top: -3px;
+}
+
+/* Brity New Login Page */
+
+.login-main-container {
+  display: flex;
+  width: 100%;
+}
+
+.login-left-section {
+  flex: 1;
+  background: linear-gradient(300deg, #92cafb, transparent);
+  margin-left: 5%;
+  max-width: 766px;
+  height: 100vh;
+}
+
+.login-right-section {
+  flex: 1;
+}
+
+.login-credinrtial-area {
+  margin-left: 20%;
+  float: left;
+  position: absolute;
+  top: 28%;
+  width: 408px;
+}
+
+span.cpyrights {
+  display: block;
+  float: left;
+  margin-top: 5px;
+  pointer-events: none;
+}
+
+.login-credinrtial-area .otp-selection input {
+  width: auto;
+  display: inline-block;
+  height: auto;
+  margin-right: 4px;
+  margin-left: 10px;
+}
+
+button.login-in {
+  background: #2a82f0;
+  width: 100%;
+  height: 38px;
+  min-width: 38px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.login-main-container .figma-error {
+  margin-left: unset;
+}
+
+.login-copyright-area {
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.otp-sec input {
+  background: rgba(0, 0, 0, 0.06);
+  margin-top: 0 !important;
+  pointer-events: none;
+}
+
+.otp-with-timer.otp-sec .content-sides input {
+  background: unset;
+  pointer-events: unset;
+}
+
+.login-left-section {
+  text-align: center;
+  position: relative;
+}
+
+.login-left-section svg {
+  position: absolute;
+  left: 20%;
+  right: 0;
+  top: 40%;
+}
+
+button.Send-otp {
+  background: none;
+  width: 100%;
+  height: 38px;
+  min-width: 38px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2a82f0;
+  color: #2a82f0;
+}
+
+.login-credinrtial-area .otp-selection input:first-child {
+  margin-left: 0;
+}
+
+.otp-selection {
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: normal;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.otp-selection input {
+  width: auto;
+  display: inline-block;
+  margin: auto;
+  height: auto;
+}
+
+.login-credinrtial-area h3 {
+  font-size: 28px;
+  pointer-events: none;
+}
+
+.login-credinrtial-area input {
+  width: 100%;
+  cursor: auto;
+  padding: 0 30px 0 12px;
+  line-height: 28px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.langugae-selector input {
+  float: left;
+  width: auto;
+  display: block;
+  height: auto;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+/* Brity New Login Page */
+
+.otp-selection .standard-radio.radio-global-normal.no-table label.britychecks {
+  float: left;
+}
+
+.langugae-selector .dropdownmodify.language-drops button.dropbtn {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 21px;
+}
+
+.langugae-selector .dropdownmodify.language-drops button.dropbtn svg {
+  top: 6px !important;
+  right: 10px;
+}
+
+.langugae-selector .dropdownmodify.language-drops::before {
+  content: '|';
+  position: absolute;
+  left: -4px;
+  z-index: 9999;
+  color: #666;
+  top: 2px;
+}
+
+.dropdownmodify.language-drops .dropdown-content option:hover {
+  background: #f4f4f5;
+}
+
+.login-left-section svg {
+  width: 100%;
+  max-width: 440px;
+}
+
+.login-logo {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  left: -4%;
+  right: 0;
+  top: 33%;
+}
+
+.content-area.login-full-container {
+  height: 100vh !important;
+}
+
+.otp-with-timer {
+  float: left;
+  width: 100%;
+}
+
+.otp-with-timer .timer {
+  display: inline-block;
+  float: right;
+  width: 14%;
+  border: 1px solid #ccc;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 34px;
+  pointer-events: none;
+}
+
+.otp-with-timer.otp-sec .content-sides {
+  width: 85%;
+  display: inline-block;
+}
+
+button:disabled.login-in {
+  background: #dbdbdb !important;
+  color: #fff !important;
+}
+
+.login-logo.brity-banner {
+  top: 40%;
+}

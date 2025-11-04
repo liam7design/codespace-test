@@ -1,0 +1,3736 @@
+/* Brity css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Malgun Gothic', '맑은 고딕', Dotum, '돋움', Gulim, '굴림', 'Apple SD Gothic Neo', 'Segoe UI WPC', 'Segoe UI',
+    Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.media-issue-width {
+  min-width: 200px !important;
+}
+
+button {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+input {
+  font-size: 13px;
+}
+
+textarea {
+  resize: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* floats & Margins */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.mL1 {
+  margin-left: 1px;
+}
+
+.mL2 {
+  margin-left: 2px;
+}
+
+.mL3 {
+  margin-left: 3px;
+}
+
+.mL4 {
+  margin-left: 4px;
+}
+
+.mL5 {
+  margin-left: 5px;
+}
+
+.mL6 {
+  margin-left: 6px;
+}
+
+.mL12 {
+  margin-left: 12px;
+}
+
+.mL8 {
+  margin-left: 8px;
+}
+
+.mL20 {
+  margin-left: 20px;
+}
+
+.mL12 {
+  margin-left: 12px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.mR5 {
+  margin-right: 5px;
+}
+
+.mR8 {
+  margin-right: 8px;
+}
+
+.mT0 {
+  margin-top: 0px;
+}
+.mR32 {
+  margin-right: 32px;
+}
+
+.newsearchinput-withdropdown.fr.mR32 {
+  margin-right: 32px;
+}
+
+.mT8.mT0 {
+  margin-top: 0px !important;
+}
+
+.mL12 {
+  margin-left: 12px;
+}
+
+.mT5 {
+  margin-top: 5px;
+}
+
+.mT8 {
+  margin-top: 8px;
+}
+
+.mT10 {
+  margin-top: 10px;
+}
+
+.mT20 {
+  margin-top: 20px;
+}
+
+.mT30 {
+  margin-top: 30px;
+}
+
+.mT50 {
+  margin-top: 50px;
+}
+
+.mT60 {
+  margin-top: 60px;
+}
+
+.mB3 {
+  margin-bottom: 3px;
+}
+
+.mB5 {
+  margin-bottom: 5px;
+}
+
+.mB10 {
+  margin-bottom: 10px;
+}
+
+.mB20 {
+  margin-bottom: 20px;
+}
+
+.mB30 {
+  margin-bottom: 30px;
+}
+
+.mB75 {
+  margin-bottom: 75px;
+}
+
+.mB100 {
+  margin-bottom: 100px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.br8 {
+  border-radius: 8px;
+}
+
+.wtb {
+  border-top: none !important;
+}
+
+.width200 {
+  width: 200px;
+}
+
+.lhnrml {
+  line-height: normal !important;
+}
+
+select.selecttitle {
+  margin-top: -5px;
+}
+
+.action-button button:first-child {
+  margin-right: 0;
+}
+
+.brityleftmenu {
+  width: 239px;
+  padding: 0 15px 20px 16px;
+  background-color: #fafafa;
+  height: calc(100vh);
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  float: left;
+}
+
+.middle-area {
+  display: flex;
+  width: 100%;
+}
+
+.brity-header {
+  height: 80px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 80px;
+}
+
+.brity-footer ul li span {
+  margin: 0 0 13px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.brity-footer ul li {
+  list-style: none;
+}
+
+.brity-footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+.brity-menubar {
+  float: left;
+  width: 100%;
+}
+
+.brity-menubar ul li {
+  padding: 4px 8px 4px 6px;
+  width: 100%;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+.brity-menubar ul li a {
+  color: rgba(0, 0, 0, 0.8);
+  display: block;
+  float: left;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  min-height: 32px;
+  line-height: normal;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+  padding-top: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.brity-menubar > ul > li:last-child li:last-child span.britytooltip.notHideMenu {
+  bottom: 30px;
+}
+
+.brity-menubar ul {
+  float: left;
+  width: 100%;
+}
+
+.brity-menubar ul li ul li {
+  padding: 0px 8px 0px 25px;
+  min-height: 32px;
+  line-height: 32px;
+}
+
+/* New Pages Brity */
+.brity-menubar > ul > li > a {
+  font-weight: bold;
+  width: calc(100% - 20px);
+  padding-left: 4px;
+}
+
+.brity-menubar ul li ul li.active a {
+  font-weight: bold;
+}
+
+.brity-footer ul li span {
+  margin: 0;
+}
+
+/* scroll bar */
+.brityleftmenu {
+  padding-right: 5px;
+}
+
+.brityleftmenu .brity-menubar {
+  overflow-y: scroll;
+  height: calc(100% - 93px);
+}
+
+.brityleftmenu .brity-menubar > ul {
+  padding-right: 5px;
+}
+
+.brityleftmenu h2 span {
+  right: 9px;
+}
+
+.brity-menubar ul li ul li::before {
+  content: '\2022';
+  color: #717171;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  float: left;
+}
+
+.brity-menubar ul li span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.brity-menubar ul li ul li.active {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.brity-menubar ul li ul li.active::before {
+  color: #000;
+}
+
+.brity-menubar ul li ul li.active a {
+  color: #000;
+  font-weight: 700;
+}
+
+.brity-menubar > ul > li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+.brity-menubar > ul > li:last-child {
+  border: none;
+}
+
+.content-area {
+  float: left;
+  width: auto;
+  height: 100vh;
+  overflow: auto;
+  flex: 1 1;
+  display: flex;
+}
+
+.brity-title {
+  float: left;
+  width: 100%;
+  height: 98px;
+  padding: 24px 30px;
+  background-color: #fff;
+  position: relative;
+}
+
+.title-areas {
+  float: left;
+}
+
+.brity-title.bigtitles {
+  height: auto;
+}
+
+.title-areas h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+}
+
+.title-areas span {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.breadcrumb {
+  float: right;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  right: 30px;
+}
+
+.breadcrumb span {
+  font-weight: bold;
+}
+
+/* Top action Area */
+.top-action-area {
+  float: left;
+  width: 100%;
+  height: 72px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.top-action-area ul li {
+  float: left;
+  width: 100%;
+}
+
+.top-action-area ul li label {
+  width: 120px;
+  height: 48px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+  line-height: 48px;
+  float: left;
+}
+
+.top-action-area ul {
+  float: left;
+  width: 100%;
+}
+
+.top-action-area ul li select {
+  width: 100%;
+  height: 30px;
+  padding: 0px 8px 0px 10px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+}
+
+.top-action-area ul li:nth-child(2) {
+  margin-left: 210px;
+}
+
+.top-action-area ul li input {
+  width: 200px;
+  height: 30px;
+  margin-left: 8px;
+  padding: 0px 0 0px 12px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  margin-top: 8px;
+}
+
+::placeholder {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.77;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.action-button {
+  float: left;
+  width: 100%;
+  height: 58px;
+  text-align: right;
+  padding: 12px 30px;
+}
+
+.action-button button {
+  width: 76px;
+  height: 30px;
+  margin: 0 8px 0 0;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+
+  text-align: center;
+}
+
+.action-button button[disabled] {
+  background: #dbdbdb !important;
+  color: #fff !important;
+}
+
+button.primary {
+  background: #2a82f0;
+  color: #fff;
+  border: none;
+}
+
+.table-section {
+  backface-visibility: hidden;
+  float: left;
+  width: 100%;
+}
+
+.tablename {
+  float: left;
+  width: 100%;
+  height: 37px;
+  padding: 8px 30px;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+}
+
+.total-users {
+  height: 40px;
+  float: left;
+  width: 100%;
+  padding: 5px 30px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  text-align: left;
+  color: #000;
+}
+
+.total-users select {
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  text-align: left;
+  color: #000;
+  margin-left: 0;
+  border: none;
+  width: auto;
+}
+
+select {
+  width: 130px;
+  height: 30px;
+  padding: 0px 8px 0px 10px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  font-size: 13px;
+  background-color: #fff;
+}
+
+.select_box {
+  width: 130px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  height: 48px;
+  line-height: 46px;
+}
+
+.editMode select:disabled {
+  border: 1px solid #eaeaea;
+  background: #f7f7f7;
+  color: #a5a5a5;
+}
+
+.cus-disable button {
+  border: 1px solid #eaeaea;
+  background: #f7f7f7 !important;
+  color: #a5a5a5;
+  pointer-events: none;
+}
+
+.brity-tabmenu ul li.active {
+  border-bottom: 2px solid #111;
+}
+
+.brity-tabmenu {
+  backface-visibility: hidden;
+  float: left;
+  width: 100%;
+  padding: 0 30px;
+  height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.tab-shortdesc {
+  float: left;
+  width: 100%;
+  padding: 0 30px;
+  opacity: 0.8;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+  line-height: 36px;
+  min-height: 36px;
+}
+
+.brity-tabmenu ul li:hover {
+  border-bottom: 2px solid #111;
+}
+
+.brity-tabmenu ul li {
+  display: block;
+  float: left;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.brity-tabmenu ul li:hover {
+  border-bottom: 2px solid #111;
+}
+
+.brity-tabmenu.tabfordetail {
+  margin-top: 30px;
+  border-top: none;
+}
+
+.top-action-area input.fullwidth {
+  width: calc(100% - 8px);
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+/* modify dropdown */
+.dropdownmodify {
+  position: relative;
+  float: left;
+}
+
+.dropdownmodify button.dropbtn {
+  background-color: #fff;
+  border: 1px solid #00000024;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  padding: 0 23px 7px 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 130px;
+}
+
+.dropdownmodify button.dropbtn img {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.dropdownmodify .dropdown-content {
+  min-width: 130px;
+  max-height: 50vh;
+  overflow-x: hidden;
+  padding-left: 0;
+  width: max-content;
+  padding-right: 0;
+}
+
+.dropdownmodify button:hover {
+  border: 1px solid #333333;
+}
+
+.dropdownmodify button:focus {
+  border: 1px solid #00a4e8;
+}
+
+.dropdownmodify .dropdown-content a:hover {
+  background: #f4f4f5;
+}
+
+.dropdownmodify .dropdown-content a {
+  padding-left: 10px;
+  border-radius: 0;
+}
+
+.dropdownmodify .dropdown-content a:focus {
+  color: #00a4e8;
+}
+
+.dropdownmodify .dropdown-content a.activated {
+  color: #00a4e8;
+}
+
+.dropdownmodify.perpagemodify button.dropbtn {
+  background: none;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: #000;
+}
+
+.dropdownmodify.modifydroporg button {
+  width: 100%;
+  max-width: 200px;
+}
+
+.dropdownmodify.modifydroporg {
+  width: 100%;
+}
+
+.top-action-area .select_box.select200 {
+  overflow: visible;
+}
+
+.dropdownmodify.modifydroporg button.dropbtn img {
+  top: 15px;
+}
+
+.dropdownmodify.modifydroporg .dropdown-content {
+  top: 42px;
+}
+
+.dropdownmodify.modifydroporg button.dropbtn span {
+  float: left;
+  width: calc(100% - 20px);
+  overflow: hidden;
+}
+
+.frimp {
+  float: right !important;
+}
+
+.dropdownmodify.frimp {
+  margin-top: -5px;
+}
+
+.dropdownmodify.modifydroporg.mT8.cusarrow button.dropbtn img {
+  top: 8px;
+}
+
+.dropdownmodify.modifydroporg.mT8.cusarrow .dropdown-content {
+  top: 35px;
+}
+
+.drop-searchsection.cus-search-popup .dropdownmodify button {
+  width: 105px;
+  margin-top: -12px;
+  border-radius: 4px 0 0 4px;
+  margin-right: -8px;
+}
+
+.drop-searchsection.cus-search-popup .dropdown-content {
+  left: -105px;
+  top: 25px;
+  min-width: 105px;
+}
+
+.cus-orgpolicy-dropdown {
+  position: relative;
+  left: 7px;
+}
+
+.cus-orgpolicy-dropdown button img {
+  margin-top: 6px;
+}
+
+.cus-orgpolicy-dropdown div#SelectBoxOpen {
+  margin-top: 5px;
+}
+
+.cus-dropdown-below {
+  position: relative;
+  left: 7px;
+}
+
+.cus-dropdown-below button img {
+  margin-top: 6px;
+}
+
+.cus-dropdown-below-margin div#SelectBoxOpen {
+  margin-top: 5px;
+}
+
+.remove-opacity {
+  opacity: 1 !important;
+}
+
+.select_box select {
+  width: 220px;
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+}
+
+.tables {
+  float: left;
+  width: 100%;
+  padding: 0 30px;
+}
+
+table {
+  display: table;
+  width: 100%;
+  float: left;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+tbody {
+  display: table;
+  width: 100%;
+}
+
+table tr {
+  border-bottom: 1px solid #f7f7f7;
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: normal;
+  position: relative;
+}
+
+table tr td {
+  padding: 8px 10px;
+  height: 36px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+table tr th {
+  padding-left: 8px;
+  padding: 8px 10px;
+  height: 36px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+table tr th::before {
+  content: '';
+  height: 14px;
+  background: rgba(0, 0, 0, 0.14);
+  width: 1px;
+  display: inline-block;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+
+table.userlist tr th::before {
+  content: '';
+  height: 14px;
+  background: rgba(0, 0, 0, 0.14);
+  width: 1px;
+  display: inline-block;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+
+table tr.blankimage:hover {
+  background: none !important;
+  cursor: default;
+}
+
+table tr.blankimage td {
+  height: auto;
+  text-align: center;
+  display: block !important;
+  width: 100% !important;
+  max-width: unset !important;
+  margin-top: 67px;
+}
+
+table tr.blankimage td p {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+}
+
+table tr.blankimage td span {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-top: 8px;
+}
+
+table tr.blankimage {
+  border: none;
+  padding-bottom: 95px;
+  cursor: default;
+}
+
+.table-header-button button {
+  height: 28px;
+  padding: 0px 8px 0px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.table-header-button {
+  padding: 6px 30px;
+  float: left;
+  width: 100%;
+}
+
+.table-header-button button:disabled {
+  color: rgba(0, 0, 0, 0.3) !important;
+  border: solid 1px rgba(0, 0, 0, 0.14) !important;
+  background-color: #fff;
+}
+
+table tr th:nth-child(1)::before {
+  display: none;
+}
+
+table.withcheckbox tr th:nth-child(2)::before {
+  display: none;
+}
+
+li.dividation-checks > label {
+  min-height: 275px;
+  padding-top: 86px;
+}
+
+table tr th {
+  display: table-cell;
+  position: relative;
+  min-width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 130px;
+}
+
+table tr td {
+  display: table-cell;
+  min-width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 130px;
+}
+
+table.withcheckbox tr th:nth-child(1) {
+  width: 32px;
+  min-width: 32px;
+  max-width: 32px;
+  text-overflow: unset;
+}
+
+table.withcheckbox tr td:nth-child(1) {
+  width: 32px;
+  min-width: 32px;
+  max-width: 32px;
+  text-overflow: unset;
+}
+
+table.withcheckbox tr th:nth-child(1) input {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+table.withcheckbox tr td:nth-child(1) input {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.table-header-button .selected {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #000;
+  margin-right: 18px;
+}
+
+.table-header-button span.deselected img {
+  position: relative;
+  top: 3px;
+}
+
+.table-header-button span.deselected {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #2a82f0;
+  margin-right: 16px;
+}
+
+form.brityiframe {
+  backface-visibility: hidden;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 30px;
+}
+
+.form-header {
+  float: left;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.form-header span::before {
+  content: '';
+  height: 14px;
+  background: rgba(0, 0, 0, 0.14);
+  width: 1px;
+  display: block;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+
+.form-header label {
+  width: 32.66%;
+  display: block;
+  float: left;
+  padding-left: 8px;
+}
+
+.form-header span {
+  width: 67.3%;
+  display: block;
+  float: left;
+  padding-left: 8px;
+  position: relative;
+}
+
+form.brityiframe ul li.parent span {
+  display: block;
+  float: left;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-right: 32px;
+}
+
+form.brityiframe ul li.parent .parent-dropdown {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 43px;
+
+  text-align: left;
+  color: #000;
+  height: 43px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+form.brityiframe ul li.parent .parent-dropdown span {
+  display: block;
+  float: left;
+  padding-left: 8px;
+  padding-top: 0;
+}
+
+form.brityiframe ul li.parent ul li label {
+  padding-left: 8px;
+  display: block;
+  float: left;
+  width: 32.66%;
+}
+
+form.brityiframe ul li.parent .parent-dropdown span:last-child {
+  float: right;
+  padding-right: 30px;
+  margin-top: 2px;
+}
+
+form.brityiframe ul li.parent ul.openmenu {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 100%;
+}
+
+.policycontent.checkboxcontent section {
+  display: block;
+  float: left;
+}
+
+form.brityiframe ul li.parent ul li .policycontent {
+  display: block;
+  float: left;
+  padding-left: 8px;
+  display: block;
+  float: left;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+  width: 67.3%;
+}
+
+form.brityiframe ul li.parent ul li {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: #000;
+  height: auto;
+  border-bottom: 1px solid #eaeaea;
+  background: rgba(0, 0, 0, 0.04);
+  min-height: 43px;
+}
+
+form.brityiframe ul li {
+  width: 100%;
+  float: left;
+}
+
+.checkbox-category {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  width: 120px;
+  margin-right: 30px;
+}
+
+.fl.adjust-checks {
+  width: calc(100% - 152px);
+}
+
+li.dividation-checks .policycontent.checkboxcontent.dividerbw {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+li.dividation-checks .policycontent.checkboxcontent {
+  min-height: 43px;
+}
+
+li.dividation-checks > li {
+  height: 216px;
+}
+
+.policycontent.checkboxcontent input {
+  float: left;
+  display: block;
+}
+
+.policycontent.checkboxcontent span {
+  display: block;
+  float: left;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.britychecks {
+  display: block;
+  position: relative;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.britychecks input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fafafa;
+  border: 1px solid #dcdcdc;
+}
+
+/* On mouse-over, add a grey background color */
+.britychecks:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.britychecks input:checked ~ .checkmark {
+  background-color: #aacdf9;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.britychecks input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.britychecks .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 3px;
+  height: 7px;
+  border: solid white;
+  border-width: 0px 0.1em 0.1em 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark.radios:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.britychecks input:checked ~ .checkmark.radios:after {
+  display: block;
+  border: none;
+  background: #aacdf9;
+}
+
+.britychecks input:checked ~ .checkmark.radios {
+  border: 2px solid #aacdf9;
+}
+
+/* Style the indicator (dot/circle) */
+.britychecks .checkmark.radios:after {
+  border-radius: 50%;
+  background: white;
+  left: 2px;
+  top: 2px;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+form.brityiframe ul li.parent ul li .policycontent.checkboxcontent label.britychecks span.checkmark.radios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+form.brityiframe ul li.parent ul li .policycontent.checkboxcontent label.britychecks span.checkmark.radios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* Standard Radios */
+.standard-radio label.britychecks span.checkmark.radios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.standard-radio label.britychecks span.checkmark.radios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.standard-radio .britychecks input:checked ~ .checkmark.radios:after {
+  display: block;
+  border: none;
+  background: #2a82f0;
+}
+
+.standard-radio .britychecks input:checked ~ .checkmark.radios {
+  border: 1px solid #2a82f0;
+}
+
+.content-sides.content-withseraching-icons {
+  position: relative;
+}
+
+.content-sides.content-withseraching-icons button {
+  position: absolute;
+  background: none;
+  border: navajowhite;
+  right: 6px;
+  top: 6px;
+}
+
+/* Top action by view policy */
+
+.top-action-area.topaction-viewbypolicy {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-action-area.topaction-viewbypolicy > div {
+  flex: 1 0 18.4%;
+  margin-right: 1%;
+  max-width: 18.4%;
+}
+
+.top-action-area.topaction-viewbypolicy > div:nth-child(5) {
+  margin-right: 0 !important;
+}
+
+.top-action-area.topaction-viewbypolicy > div:nth-child(5) ul {
+  margin-right: 0 !important;
+}
+
+.top-action-area.topaction-viewbypolicy ul li {
+  margin: 0;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.top-action-area.topaction-viewbypolicy h3 span {
+  font-size: 12px;
+}
+
+.top-action-area.topaction-viewbypolicy h3 {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: #000;
+  line-height: 43px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.top-action-area.topaction-viewbypolicy span.iconbtn {
+  float: right;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.top-action-area.topaction-viewbypolicy ul li label.britychecks {
+  width: 100%;
+}
+
+.top-action-area.topaction-viewbypolicy ul li label.britychecks em {
+  position: relative;
+  top: 0;
+  left: 24px;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: #000;
+  padding-right: 8px;
+  display: block;
+  width: calc(100% - 24px);
+}
+
+.top-action-area.topaction-viewbypolicy ul li label.britychecks input {
+  width: auto;
+  height: auto;
+}
+
+.top-action-area.topaction-viewbypolicy ul li label.britychecks {
+  height: auto;
+  line-height: normal;
+}
+
+.main-buttonaction {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 58px;
+  padding: 0 30px;
+  padding-top: 12px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.main-buttonaction button.onlysolid {
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 10px;
+
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-buttonaction button {
+  height: 30px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  background-color: #2a82f0;
+  min-width: 76px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+
+  text-align: center;
+  color: #fff;
+}
+
+.main-buttonaction button[disabled] {
+  background: #dbdbdb !important;
+  color: #fff !important;
+}
+
+form.brityiframe ul li.parent ul li .policycontent.checkboxcontent label.britychecks em {
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.3);
+  display: block;
+  float: left;
+  width: auto;
+  position: relative;
+  top: 0;
+  left: 24px;
+  margin-right: 56px;
+  line-height: normal;
+  height: auto;
+  font-size: 13px;
+}
+
+.policycontent.checkboxcontent {
+  padding-top: 12px;
+}
+
+form.brityiframe ul li.parent ul li .policycontent.checkboxcontent label {
+  width: auto;
+  display: block;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+form.brityiframe ul li.parent ul li .policycontent.checkboxcontent.file-type label {
+  width: 108px !important;
+  display: block;
+  padding: 0;
+  margin-bottom: 14px;
+  height: 20px;
+}
+
+form.brityiframe.britythree.editpage ul li.parent ul li .policycontent.checkboxcontent.file-type label {
+  width: 98px !important;
+}
+form.brityiframe ul li.parent ul li .policycontent.checkboxcontent label.britychecks span.checkmark {
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.select_box.select200 {
+  width: 200px;
+}
+
+.divider-line {
+  float: left;
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.general-info-brity {
+  backface-visibility: hidden;
+  float: left;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.general-info-brity h3 {
+  min-height: 46px;
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 46px;
+  text-align: left;
+  color: #000;
+}
+
+.general-info-brity ul li {
+  float: left;
+  width: 100%;
+  padding: 6px 0 7px 0;
+}
+
+.general-info-brity ul li label {
+  width: 120px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+  float: left;
+}
+
+.general-info-brity ul li span.nrmltxt {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: #000;
+  float: left;
+  display: block;
+  padding-left: 30px;
+}
+
+.general-info-brity.infowith-inputs li .content-sides {
+  line-height: 32px;
+}
+
+span.selectinfo img {
+  float: left;
+  margin-right: 4px;
+}
+
+span.selectinfo {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+button.reset {
+  height: 28px;
+  padding: 5px 8px 6px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  float: left;
+  margin-left: 8px;
+  margin-top: -6px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+table.viewbypolicy tr th:nth-child(2) {
+  width: 6.98%;
+}
+
+table.viewbypolicy tr th:nth-child(3) {
+  width: 20.44%;
+}
+
+table.viewbypolicy tr th:nth-child(4) {
+  width: 18.08%;
+}
+
+table.viewbypolicy tr th:nth-child(5) {
+  width: 18.08%;
+}
+
+table.viewbypolicy tr th:nth-child(6) {
+  width: 18.08%;
+}
+
+table.viewbypolicy tr th:nth-child(7) {
+  width: 6.48%;
+}
+
+table.viewbypolicy tr th:nth-child(8) {
+  width: 9.85%;
+}
+
+table.viewbypolicy tr td:nth-child(2) {
+  width: 6.98%;
+}
+
+table.viewbypolicy tr td:nth-child(3) {
+  width: 20.44%;
+}
+
+table.viewbypolicy tr td:nth-child(4) {
+  width: 18.08%;
+}
+
+table.viewbypolicy tr td:nth-child(5) {
+  width: 18.08%;
+}
+
+table.viewbypolicy tr td:nth-child(6) {
+  width: 18.08%;
+}
+
+table.viewbypolicy tr td:nth-child(7) {
+  width: 6.48%;
+}
+
+table.viewbypolicy tr td:nth-child(8) {
+  width: 9.85%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(2) {
+  width: 6.98%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(3) {
+  width: 20.44%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(4) {
+  width: 18.08%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(5) {
+  width: 12.08%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(6) {
+  width: 12.08%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(7) {
+  width: 12.08%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(8) {
+  width: 15.85%;
+}
+
+table.viewbypolicy.showDiv tr th:nth-child(9) {
+  width: 9.85%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(2) {
+  width: 6.98%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(3) {
+  width: 20.44%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(4) {
+  width: 18.08%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(5) {
+  width: 12.08%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(6) {
+  width: 12.08%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(7) {
+  width: 12.08%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(8) {
+  width: 15.85%;
+}
+
+table.viewbypolicy.showDiv tr td:nth-child(9) {
+  width: 9.85%;
+}
+
+table.userlist.workspaceconfig tr td img {
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+
+table.userlist.featurepolicy tr td {
+  overflow: unset;
+  word-break: break-all;
+  text-overflow: unset;
+  white-space: normal;
+}
+
+span.britytooltip {
+  white-space: pre-wrap;
+  position: absolute;
+  word-break: break-all;
+  background: #000;
+  max-width: 316px;
+  height: auto;
+  bottom: 80%;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  text-align: left;
+  color: #fff;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+span.britytooltip {
+  display: none;
+}
+
+table tr td span.tblsimpletxt:hover span.britytooltip {
+  display: block;
+  bottom: unset;
+  top: 26px;
+}
+
+table tr td:last-child span.tblsimpletxt:hover span.britytooltip {
+  display: block;
+  bottom: unset;
+  top: 26px;
+  right: unset;
+}
+
+.userlist-area ul li em:hover + .britytooltip {
+  display: block;
+}
+
+span.britytooltip.optimizehover {
+  min-width: 242px;
+  bottom: unset !important;
+}
+
+.userlist-area {
+  float: left;
+  width: 100%;
+  max-height: 536px;
+  overflow: auto;
+}
+
+.userlist-area ul li {
+  padding-right: 12px !important;
+  position: relative;
+}
+
+.userlist-area ul li p {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding-right: 12px;
+}
+
+.userlist-area ul li span.britytooltip {
+  bottom: unset;
+  top: 30px;
+}
+
+.userlist-area ul li img {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.form-header.threeform label {
+  width: 24.06%;
+  float: left;
+}
+
+.form-header.threeform label:nth-child(2) {
+  width: 11%;
+  position: unset;
+}
+
+.form-header.threeform span {
+  width: 64.77%;
+}
+
+.form-header.threeform label:nth-child(2)::before {
+  content: '';
+  height: 14px;
+  background: rgba(0, 0, 0, 0.14);
+  width: 1px;
+  display: block;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+
+.form-header.threeform label:nth-child(2) img {
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+}
+
+form.brityiframe.britythree ul li.parent ul li label {
+  width: 24.06%;
+  float: left;
+  margin: auto;
+}
+
+form.brityiframe.britythree ul li.parent ul li .policycontent {
+  width: 65.77%;
+  cursor: default;
+}
+
+form.brityiframe.britythree ul li.parent ul li .toggle-slide-brity span.statusname {
+  padding: 0;
+  display: block;
+  float: left;
+  position: absolute;
+  left: 46px;
+  top: -1px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+  cursor: default;
+}
+
+form.brityiframe.britythree ul li.parent ul li .policycontent input {
+  width: 130px;
+  height: 30px;
+  padding: 5px 6px 6px 12px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+}
+
+form.brityiframe.editpage .britychecks input:checked ~ .checkmark {
+  background: #2a82f0;
+}
+
+form.brityiframe.editpage .britychecks.editYn input:checked ~ .checkmark {
+  background: #aacdf9;
+}
+
+form.brityiframe.editpage .britychecks input:checked ~ .checkmark.radios {
+  border: 0.12rem solid #2a82f0;
+}
+
+form.brityiframe.editpage .britychecks input:checked ~ .checkmark.radios:after {
+  background: #2a82f0;
+}
+
+form.brityiframe.editpage ul li.parent ul li .policycontent.checkboxcontent label.britychecks em {
+  color: #000000;
+}
+
+form.brityiframe.britythree.editpage {
+  overflow: visible;
+}
+
+/* For deactivating */
+.policycontent.checkboxcontent.deactivatechecks {
+  opacity: 0.8;
+  pointer-events: none !important;
+}
+
+.policycontent.checkboxcontent.deactivatechecks span {
+  background: #ffffff !important;
+  background-color: #fafafa;
+  border: 1px solid #dcdcdc;
+}
+
+.policycontent.checkboxcontent.deactivatechecks input[type='checkbox']:checked ~ .checkmark {
+  background: #aacdf9 !important;
+  border: none !important;
+}
+
+form.brityiframe ul li.parent ul li .policycontent label {
+  opacity: 1;
+}
+
+.policycontent.checkboxcontent.deactivatechecks input:checked ~ .checkmark.radios {
+  border: 0.12rem solid #aacdf9 !important;
+  background: #fff !important;
+}
+
+.policycontent.checkboxcontent.deactivatechecks input:checked ~ .checkmark.radios:after {
+  background: #aacdf9 !important;
+}
+
+.policycontent.checkboxcontent.deactivatechecks em {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* toggle slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px !important;
+  height: 14px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 16px;
+  width: 16px;
+  left: 0px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  top: -2px;
+}
+
+input:checked + .slider {
+  background-color: #2a82f0;
+}
+
+input:checked + .slider:before {
+  position: absolute;
+  content: '';
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid #2a82f0;
+  top: -2px;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(9px);
+  -ms-transform: translateX(9px);
+  transform: translateX(9px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  padding: 0 !important;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Brity Popup */
+.brity-modalcontainer.largepopup {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999;
+}
+
+.britypopup-box {
+  width: 1024px;
+  height: 674px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px 20px;
+}
+
+.popup-content {
+  float: left;
+  width: 100%;
+}
+
+.popup-table {
+  width: 664px;
+  float: left;
+}
+
+.drop-searchsection input {
+  float: left;
+  width: calc(100% - 80px);
+  height: 28px;
+  border: none;
+  font-size: 13px;
+  padding-left: 12px;
+}
+
+.popup-table .total-users select {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.77;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.drop-searchsection button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  cursor: pointer;
+}
+
+.drop-searchsection select {
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: #000;
+  line-height: normal;
+  margin: 0;
+  width: 79px;
+  float: left;
+  font-weight: 400;
+  height: 28px;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 4px 0 0 4px;
+}
+
+.list-of-users {
+  float: left;
+  width: 320px;
+  height: 508px;
+  background-color: #fafafa;
+  border-left: 1px solid #eaeaea;
+  padding: 0 16px;
+  position: relative;
+}
+
+.drop-searchsection {
+  float: right;
+  width: 258px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  position: relative;
+}
+
+/* for hide popup modify */
+.britypopup-box.popupboxhides .popup-table {
+  display: none;
+}
+
+.britypopup-box.popupboxhides .list-of-users {
+  width: 100%;
+  border-left: none;
+}
+
+.britypopup-box.popupboxhides .totalusersearch {
+  width: 100%;
+}
+
+table.popuptable.withcheckbox input {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.britypopup-box .brity-title {
+  padding: 0;
+  height: auto;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.userlist-action {
+  float: left;
+  width: 100%;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 16px;
+  border-top: 1px solid #eaeaea;
+  line-height: 38px;
+  font-size: 13px;
+}
+
+.britypopup-box .main-buttonaction {
+  margin-right: 0;
+  padding-right: 0;
+  margin-right: 0;
+  padding-right: 0;
+  position: absolute;
+  right: 20px;
+  bottom: 8px;
+}
+
+.userlist-action ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.userlist-action ul li {
+  display: block;
+  float: left;
+  margin-right: 8px;
+  cursor: pointer;
+  line-height: 42px;
+}
+
+button.delbutton {
+  background: #f45743;
+}
+
+.brity-modalcontainer.largepopup.smallpopup.autoheight .britypopup-box {
+  height: 198px !important;
+}
+
+.main-buttonaction.posstatic {
+  position: static;
+}
+
+.posstatic {
+  position: static;
+}
+
+table.popuptable.withcheckbox tr th::before {
+  top: 9px;
+  height: 14px;
+}
+
+span.total-popupusers b::after {
+  content: '';
+  height: 16px;
+  width: 1px;
+  background: #dbdbdb;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: -12px;
+}
+
+span.total-popupusers b {
+  position: relative;
+}
+
+span.total-popupusers {
+  width: 100%;
+  height: 42px;
+  display: block;
+  padding: 6px 0px;
+  line-height: 32px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+span.total-popupusers svg {
+  float: left;
+  width: 16px;
+  height: auto;
+  margin-top: 9px;
+  margin-right: 10px;
+}
+
+span.total-popupusers span {
+  cursor: pointer;
+}
+
+.userlist-area ul li {
+  display: block;
+  height: 36px;
+}
+
+.userlist-area ul li:first-child {
+  height: 36px;
+  cursor: default;
+}
+
+.userlist-area ul li:first-child:hover {
+  background: none !important;
+}
+
+.userlist-area ul li {
+  height: 32px;
+  display: block;
+  float: left;
+  width: 100%;
+  line-height: 32px;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+  text-overflow: ellipsis;
+  cursor: pointer;
+  padding: 0 0px 0 4px;
+  overflow: visible;
+}
+
+.userlist-area h4 {
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: #000;
+  height: 36px;
+  line-height: 36px;
+}
+
+.userlist-area ul li:last-child {
+  height: auto !important;
+}
+
+table.popuptable {
+  max-height: 441px;
+  overflow: auto;
+}
+
+.totalusersearch input {
+  border: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 1);
+  float: left;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  height: 29px;
+  line-height: normal;
+  padding-left: 10px;
+  text-align: left;
+  width: calc(100% - 30px);
+}
+
+.totalusersearch {
+  width: 288px;
+  height: 32px;
+  padding: 0;
+  border-radius: 4px;
+  border: solid 1px #dbdbdb;
+  background-color: #fff;
+  position: relative;
+}
+
+table.popuptable.withcheckbox tr td {
+  padding: 7px 10px;
+  height: 34px;
+}
+
+table.popuptable.withcheckbox tr th {
+  padding: 3px 10px;
+  height: 30px;
+}
+
+table.popuptable td {
+  cursor: pointer;
+}
+
+.britypopup-box .tables {
+  padding: 0;
+}
+
+.popup-table .paginations {
+  border-top: 1px solid #dbdbdb;
+  height: 38px;
+  padding-top: 7px;
+}
+
+/* For empty */
+table.popuptable tr.emptyboxes {
+  height: 404px;
+  cursor: default;
+}
+
+table.popuptable tr.emptyboxes p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 189px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  cursor: default;
+}
+
+.popupclose {
+  display: block;
+  float: left;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.brity-modalcontainer.largepopup.smallpopup .britypopup-box {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 hsla(250, 2%, 48%, 0.16);
+  height: auto;
+  padding: 16px 20px;
+  width: 384px;
+  min-height: 174px;
+}
+
+.poup-contntarea p {
+  color: #000;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  text-align: left;
+  white-space: pre-wrap;
+  position: static;
+  top: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.poup-contntarea p:nth-of-type(2) {
+  line-height: 18px;
+}
+
+.britypopup-box.smallsize .main-buttonaction {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 10px;
+  height: auto;
+  position: static;
+}
+
+.poup-contntarea {
+  display: block;
+  height: auto;
+  width: 100%;
+  min-height: 72px;
+  float: left;
+  position: relative;
+  line-height: 72px;
+}
+
+.britypopup-box.smallsize .title-areas h3 {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  color: #000;
+  pointer-events: none;
+}
+
+.totalusersearch button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.britypopup-box .total-users {
+  padding: 0 14px;
+}
+
+form.brityiframe.disablepointer .policycontent {
+  pointer-events: none;
+}
+
+form.brityiframe .policycontent.disabledinputbox {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+form.brityiframe .policycontent.disabledinputbox input {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+form.brityiframe .fl.checkbox-category.nocheckbox {
+  line-height: unset;
+  max-width: 120px;
+}
+
+.policycontent.view-nocheckbox {
+  padding: 12px 0;
+}
+
+.user-li {
+  position: relative;
+}
+
+.hide-img {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0.3s,
+    opacity 0.3s;
+  right: 0;
+}
+
+.user-li:hover .hide-img {
+  visibility: visible;
+  opacity: 1;
+}
+
+li.selecteduser {
+  position: relative;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+li.selecteduser img {
+  position: absolute;
+  right: 0;
+}
+
+.filterImg {
+  margin-left: 3px;
+  position: absolute;
+  top: 12px;
+  cursor: pointer;
+}
+
+/* Snackbar */
+.snackbar {
+  transition: all 0.5s;
+  align-items: center;
+  min-height: 48px;
+  border-radius: 4px;
+  color: #f7f7f7;
+  background-color: #333;
+  z-index: 4000;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 328px;
+  width: auto;
+  margin: auto;
+  padding: 10px 20px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  bottom: -50px;
+}
+
+.snackbar.snackactive {
+  opacity: 1;
+  min-width: 240px;
+  width: max-content;
+  max-width: 600px;
+}
+
+.snackbar.snackactive p {
+  margin-right: 35px;
+  line-height: 28px;
+}
+
+.snackbar p {
+  display: block;
+  float: left;
+  width: auto;
+  text-align: left;
+}
+
+.snackbar svg {
+  fill: #fff;
+  width: 14px;
+  position: absolute;
+  cursor: pointer;
+  left: calc(100% - 14px);
+}
+
+.snackbar-div-svg {
+  position: relative;
+}
+
+/* Hide Menu CSS */
+
+.container.gnbversion.brity.ktkm-with-newheader .brityleftmenu.brityhidemenu {
+  width: 80px;
+  height: calc(100vh - 80px);
+}
+
+.content-area.britycontenthide {
+  width: calc(100% - 80px);
+}
+
+.brity-menubar.brityhideitems ul li ul li {
+  padding-left: 0;
+}
+
+.brity-menubar.brityhideitems ul li ul li::before {
+  display: none;
+}
+
+.brityleftmenu.brityhidemenu h2 {
+  opacity: 1;
+}
+
+.brity-menubar.brityhideitems ul li a {
+  display: block;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 24px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.brityleftmenu.brityhidemenu h2 span {
+  right: 11px;
+}
+
+.brity-menubar.brityhideitems ul {
+  margin-left: 2px;
+}
+
+.brity-menubar.brityhideitems > ul > li {
+  padding-bottom: 4px;
+  margin-bottom: 0px;
+}
+
+li.hideactivate {
+  background: rgba(0, 0, 0, 0.08);
+  margin-left: -7px;
+  width: 40px !important;
+  border-radius: 4px;
+}
+
+li.hideactivate a {
+  margin-left: 7px;
+}
+
+.list-title {
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  border-bottom: 1px solid #eaeaea;
+  float: left;
+  padding: 8px 30px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+}
+
+.hideImage {
+  display: none;
+}
+
+// blacklist
+table.addblacklist tr td:nth-child(2) {
+  width: 14.8%;
+}
+
+table.addblacklist tr td:nth-child(3) {
+  width: 22.24%;
+}
+
+table.addblacklist tr td:nth-child(4) {
+  width: 19.9%;
+}
+
+table.addblacklist tr td:nth-child(5) {
+  width: 18.9%;
+}
+
+table.addblacklist tr td:nth-child(6) {
+  width: 23.97%;
+}
+
+table.addblacklist tr th:nth-child(2) {
+  width: 14.8%;
+}
+
+table.addblacklist tr th:nth-child(3) {
+  width: 22.24%;
+}
+
+table.addblacklist tr th:nth-child(4) {
+  width: 19.9%;
+}
+
+table.addblacklist tr th:nth-child(5) {
+  width: 18.9%;
+}
+
+table.addblacklist tr th:nth-child(6) {
+  width: 23.97%;
+}
+
+table.addblacklist tr td svg {
+  width: 8px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+/* center alignment  */
+.brityiframe ul li.parent ul li.dividation-checks {
+  position: relative;
+}
+
+form.brityiframe ul li.parent ul li.dividation-checks span.everycenter {
+  position: absolute;
+  display: block;
+  padding: 0;
+  margin: 0;
+  top: 40%;
+  padding-left: 8px;
+  bottom: 0;
+}
+
+form.brityiframe ul li.parent ul li.dividation-checks > label {
+  padding: 0;
+  margin: 0;
+}
+
+form.brityiframe.britythree ul li.parent ul li.dividation-checks .toggle-slide-brity span.statusname {
+  top: 125px;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  li.dividation-checks .toggle-slide-brity {
+    min-height: 320px;
+    padding-top: 100px !important;
+  }
+
+  table.userlist.workspace tr th {
+    min-width: 250px;
+  }
+
+  table.userlist.workspace tr td {
+    min-width: 250px;
+  }
+
+  table.featurepolicy tr td:nth-child(1) {
+    width: 40.84%;
+    min-width: 430px;
+  }
+
+  table.featurepolicy tr th:nth-child(1) {
+    width: 40.84%;
+    min-width: 430px;
+  }
+
+  .form-header.threeform label {
+    min-width: 162px;
+  }
+
+  .form-header.threeform span {
+    width: 59%;
+  }
+
+  form.brityiframe.britythree ul li.parent ul li .toggle-slide-brity {
+    min-width: 162px;
+  }
+
+  form.brityiframe.britythree ul li.parent ul li .policycontent {
+    width: 59%;
+    float: right;
+    position: relative;
+    right: 1%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  li.dividation-checks > label {
+    min-height: 400px;
+  }
+
+  li.dividation-checks .toggle-slide-brity {
+    padding-top: 187px !important;
+  }
+
+  form.brityiframe.britythree ul li.parent ul li.dividation-checks .toggle-slide-brity span.statusname {
+    top: 172px;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1850px) {
+  li.dividation-checks .toggle-slide-brity {
+    min-height: 370px;
+  }
+
+  li.dividation-checks .toggle-slide-brity {
+    padding-top: 164px !important;
+  }
+
+  form.brityiframe.britythree ul li.parent ul li.dividation-checks .toggle-slide-brity span.statusname {
+    top: 150px;
+  }
+
+  li.dividation-checks > label {
+    min-height: 330px;
+  }
+}
+
+/* For New Dropdown */
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+
+  text-align: left;
+  color: #000;
+  background: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  z-index: 999;
+  min-width: 231px;
+  min-height: unset;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.08);
+  border: solid 1px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  top: 34px;
+}
+
+.dropdown-content option {
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+
+  text-align: left;
+  color: #000;
+  height: 32px;
+  border-radius: 4px;
+  padding: 7px 8px 8px 8px;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+
+  text-align: left;
+  color: #000;
+  height: 32px;
+  border-radius: 4px;
+  padding: 7px 8px 8px 8px;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+span.brityIcon {
+  position: relative;
+  margin-left: 6px;
+}
+
+.top-drodown-title {
+  width: 100%;
+  height: 40px;
+  padding: 5px 30px 5px 30px;
+  background-color: #fff;
+  float: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+span.lefttitlerole {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+
+  text-align: left;
+  color: #000;
+  float: left;
+  padding-right: 16px;
+}
+
+table tr:hover {
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+table tr.headrow:hover {
+  background: none;
+  cursor: default;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+// userinfo-> featurepolicyTabResult tooltip
+th.resulttootip {
+  position: relative;
+}
+
+th.resulttootip svg:hover + span.britytooltip.optimizehover {
+  display: block;
+  bottom: unset !important;
+  top: unset;
+  left: unset;
+  width: 340px !important;
+  padding: 4px 10px !important;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  text-align: left;
+  color: #fff;
+  max-width: unset;
+  right: 95px;
+  margin-top: 5px;
+  white-space: pre-line;
+}
+
+form.brityiframe .form-header span.britytooltip.optimizehover {
+  bottom: unset;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: auto;
+  min-width: 316px;
+  padding: 4px 10px;
+}
+
+form.brityiframe .form-header span.britytooltip.optimizehover {
+  bottom: unset;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: auto;
+  min-width: 316px;
+  padding: 4px 10px;
+}
+
+.tables table th.resulttootip svg {
+  position: relative;
+  top: 2px;
+  left: 10px;
+  cursor: pointer;
+}
+
+table.userlist.featurepolicy.mT8 tr th {
+  overflow: visible;
+}
+
+input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  width: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  width: 116px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.content-area-scroll {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.default-mouse table tr:hover {
+  cursor: default;
+}
+
+p.blankimage.lightdatacolor {
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 20px;
+}
+
+.userlist-area {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  max-height: unset;
+}
+
+.userlist-area ul {
+  overflow: auto;
+  height: 530px;
+  display: block;
+  float: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+table.popuptable.popuptable25all tr th {
+  width: 25%;
+  min-width: 160px;
+}
+
+table.popuptable.popuptable25all tr td {
+  width: 25%;
+  min-width: 160px;
+}
+
+table.popuptable.popuptable25all {
+  max-height: 420px;
+}
+
+.britypopup-box.newfigmasmallpopup {
+  height: auto;
+  padding-bottom: 0;
+  border-radius: 8px;
+}
+
+.britypopup-box.newfigmasmallpopup button {
+  font-size: 13px;
+}
+
+.search-details.smallfigmapagina .total-users {
+  padding-left: 0;
+}
+
+select.standard-figma-popup {
+  padding: 0;
+  width: auto;
+  max-width: unset;
+  min-width: unset;
+  font-weight: bold;
+}
+
+// For new header IN KTKM start
+.container.gnbversion.brity.ktkm-with-newheader .brityleftmenu {
+  height: calc(100vh - 65px);
+}
+
+.container.gnbversion.brity.ktkm-with-newheader .content-area {
+  height: calc(100vh - 80px);
+}
+
+// For new header IN KTKM end
+
+/* Standard changes for all old design via figma */
+
+.top-action-area.not-fullys li {
+  width: auto;
+}
+
+.dropdownmodify .dropdown-content {
+  white-space: nowrap;
+}
+
+.dropdownmodify .dropdown-content a {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.dropdownmodify .dropdown-content a.activated {
+  background: rgba(42, 130, 240, 0.14);
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify button:focus {
+  background: #eaf3fd;
+  border: 1px solid #2a82f0;
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify button.dropbtn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  color: #000;
+}
+
+.dropdownmodify button.dropbtn img {
+  top: 10px;
+}
+
+.dropdownmodify.perpagemodify button.dropbtn svg {
+  margin-left: 6px;
+}
+
+.dropdownmodify.perpagemodify button.dropbtn:hover {
+  border: none;
+  background: none;
+}
+
+.bortop {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-details.figma-search .total-users {
+  width: auto;
+  float: left;
+  margin-right: 0;
+  padding-right: 16px;
+}
+
+.search-details.figma-search .table-header-button {
+  width: auto;
+  float: left;
+  margin: 0;
+  padding-left: 0;
+}
+
+.search-details.figma-search .table-header-button.figma-selection {
+  padding-left: 30px;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.selected {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.deselected {
+  font-weight: 700;
+  color: #2a82f0;
+}
+
+table .standard-check.checkbox-global-normal {
+  position: relative;
+  top: 6px;
+}
+
+.top-drodown-title .dropdownmodify button:hover {
+  border: none !important;
+}
+
+.top-drodown-title .dropdownmodify button:focus {
+  border: none;
+}
+
+.top-drodown-title .dropdownmodify button {
+  border: none !important;
+  width: auto !important;
+  font-weight: 700 !important;
+}
+
+.top-drodown-title .dropdownmodify button svg {
+  position: static !important;
+}
+
+.minimum-popup-height {
+  min-height: 530px;
+}
+
+em.global-yellow {
+  font-style: normal;
+  background: rgba(255, 233, 164, 1);
+}
+
+.highlight em {
+  font-style: normal;
+  background: rgba(255, 233, 164, 1);
+}
+
+.search-details.figma-search .total-users {
+  width: auto;
+  float: left;
+  margin-right: 0;
+  padding-right: 16px;
+}
+
+.search-details.figma-search .table-header-button {
+  width: auto;
+  float: left;
+  margin: 0;
+  padding-left: 0;
+}
+
+.search-details.figma-search .table-header-button.figma-selection {
+  padding-left: 30px;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.selected {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.deselected {
+  font-weight: 700;
+  color: #2a82f0;
+}
+
+.search-details.figma-search .table-header-button.figma-selection {
+  padding-left: 30px;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.selected {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.deselected {
+  font-weight: 700;
+  color: #2a82f0;
+}
+
+table span.britytooltip {
+  bottom: unset;
+  padding: 4px 10px !important;
+  white-space: normal;
+  background: rgba(0, 0, 0, 0.9);
+  min-width: unset !important;
+  width: auto !important;
+  margin-top: 5px;
+}
+
+.userlist-area ul li em {
+  font-style: normal;
+  overflow: hidden;
+  display: block;
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  max-width: 100%;
+}
+
+.userlist-area ul li em em.global-yellow {
+  float: none;
+  display: unset;
+  white-space: unset;
+}
+
+.userlist-area ul li:last-child span.britytooltip {
+  bottom: 30px;
+  top: unset;
+}
+
+th.resulttootip img {
+  position: relative;
+  top: 3px;
+  left: 2px;
+  cursor: pointer;
+}
+
+.policycontent.checkboxcontent.dividerbw {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.britypopup-box.figma-exception-add tr.blankimage td {
+  margin: 0;
+}
+
+table.popuptable.popup-table-morecouloumn {
+  position: relative;
+}
+
+.curser-none {
+  pointer-events: none;
+}
+
+.mTm5 {
+  margin-top: -5px !important;
+}
+
+.curser-pointer {
+  cursor: pointer;
+}
+
+input.errror-inputs {
+  border: solid 1px #ed3b2f !important;
+}
+
+.big-table-search {
+  width: 350px !important;
+}
+.big-table-search input {
+  width: calc(100% - 30px) !important;
+}
+
+.general-info-brity.infowith-inputs li .content-sides.error-on span.characters {
+  bottom: -2px;
+}
+
+.content-sides.error-on button {
+  border: 1px solid rgba(237, 59, 47, 1) !important;
+}
+
+.table-section.figma-tables table.withcheckbox tr td:nth-child(1) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* for tooltip for disabled  policy */
+// for checkbox  and dropdown data type
+.all-checks-right .dropdownmodify.cus-disable span.britytooltip {
+  left: 20px;
+  bottom: -45px;
+  min-width: 264px;
+  top: 30px;
+  padding: 10px;
+  display: none;
+}
+
+.all-checks-right .dropdownmodify.cus-disable:hover span.britytooltip {
+  display: block;
+}
+
+.all-checks-right .dropdownmodify.cus-disable.curser-default {
+  pointer-events: all;
+}
+
+// for checkbox  and dropdown data type end //
+.all-checks-right .policycontent.checkboxcontent.deactivatechecks:hover span.britytooltip {
+  display: block;
+}
+
+.all-checks-right .policycontent.checkboxcontent.deactivatechecks.curser-default {
+  pointer-events: all !important;
+  position: relative;
+}
+
+.all-checks-right .policycontent.checkboxcontent.deactivatechecks span.britytooltip {
+  white-space: pre-wrap;
+  position: absolute;
+  word-break: break-all;
+  background: #000 !important;
+  display: none;
+  max-width: 316px;
+  height: auto;
+  bottom: 80%;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  text-align: left;
+  color: #fff;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.9);
+  left: 20px;
+  bottom: -45px;
+  min-width: 260px;
+  top: 30px;
+  padding: 10px;
+}
+
+.policycontent.checkboxcontent.deactivatechecks {
+  opacity: 1;
+}
+
+.all-checks-right .dropdownmodify.cus-disable span.britytooltip {
+  left: 20px;
+  bottom: -45px;
+  min-width: 264px;
+  top: 30px;
+  padding: 10px;
+  display: none;
+  height: max-content;
+}
+
+span.britytooltip.korean-text-width {
+  width: 318px !important;
+  white-space: unset;
+}
+
+.all-checks-right .policycontent.checkboxcontent.deactivatechecks span.britytooltip {
+  height: max-content;
+  padding: 8px;
+  width: 264px;
+  white-space: unset;
+}
+
+.all-checks-right .policycontent.checkboxcontent.deactivatechecks {
+  width: 100% !important;
+  float: left !important;
+}
+
+.all-checks-right.for-all-checks-tooltip .policycontent.checkboxcontent.dividerbw.deactivatechecks {
+  width: 100% !important;
+}
+
+.all-checks-right .policycontent.disabledinputbox {
+  width: auto !important;
+  float: left !important;
+}
+
+/*  for the text/ number data types */
+.all-checks-right .policycontent.disabledinputbox:hover span.britytooltip {
+  display: block;
+}
+
+.all-checks-right .policycontent.disabledinputbox {
+  pointer-events: all !important;
+  position: relative;
+}
+
+.all-checks-right .policycontent.disabledinputbox span.britytooltip {
+  white-space: pre-wrap;
+  position: absolute;
+  word-break: break-all;
+  background: #000 !important;
+  display: none;
+  max-width: 316px;
+  height: auto;
+  bottom: 80%;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  text-align: left;
+  color: #fff;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.9);
+  left: 20px;
+  bottom: -45px;
+  min-width: 260px;
+  top: 30px;
+  padding: 10px;
+}
+
+.policycontent.disabledinputbox {
+  opacity: 1;
+}
+
+.all-checks-right .dropdownmodify.cus-disable span.britytooltip {
+  left: 20px;
+  bottom: -45px;
+  min-width: 264px;
+  top: 30px;
+  padding: 10px;
+  display: none;
+  height: max-content;
+}
+
+span.britytooltip.korean-text-width {
+  width: 318px !important;
+  white-space: unset;
+}
+
+.all-checks-right .policycontent.view-only {
+  float: left !important;
+}
+
+.all-checks-right .policycontent.disabledinputbox span.britytooltip {
+  height: max-content;
+  padding: 8px;
+  width: 264px;
+  white-space: unset;
+}
+
+form.brityiframe.britythree.editpage .all-checks-right .policycontent.disabledinputbox {
+  width: auto !important;
+  float: left !important;
+}
+
+span.britytooltip.korean-text-width {
+  width: 318px !important;
+  white-space: unset;
+}
+
+/*  tooltip for the file extension start*/
+.all-checks-right.for-all-checks-tooltip {
+  position: relative;
+}
+
+.all-checks-right.for-all-checks-tooltip span.britytooltip {
+  display: none;
+  position: absolute;
+  top: 50%;
+  height: max-content;
+  padding: 8px;
+  left: 0;
+  transform: translate(56%, -50%);
+}
+
+.all-checks-right.for-all-checks-tooltip:hover span.britytooltip {
+  display: block;
+}
+/*  tooltip for the file extension end*/
+/* end for tooltip for disabled  policy */
+
+form.brityiframe.britythree.editpage.tenant-editing ul li.parent ul li label {
+  width: 33.9%;
+}
+
+.form-header label {
+  width: 33.9%;
+}
+
+.form-header span {
+  position: relative;
+  width: 65.3%;
+}
+
+.target-selectbox-width {
+  margin-top: unset;
+}
+
+.disabled-td-button {
+  cursor: default;
+}
+
+.myrole-section.top-drodown-title .dropdown.dropdownmodify {
+  display: inline-block;
+  width: fit-content;
+  min-width: max-content;
+}
+
+.myrole-section .dropdownmodify button.dropbtn {
+  width: max-content !important;
+  min-width: 100%;
+}
+
+.myrole-section .dropdownmodify .dropdown-content {
+  min-width: 100%;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.breadcrumb span.bread-arrow {
+  font-weight: normal;
+  padding-right: 3px;
+}
+
+.brity-tabmenu ul li {
+  color: #000c;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 16px;
+  margin-right: 4px;
+}
+
+.brity-tabmenu ul li:last-child {
+  margin-right: 0;
+}
+
+span.tooltip-tab {
+  white-space: pre-wrap;
+  position: absolute;
+  word-break: break-all;
+  background: #000;
+  max-width: 316px;
+  height: auto;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  text-align: left;
+  color: #fff;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+span.tooltip-tab {
+  display: none;
+}
+
+.tab-for-tooltip:hover span.tooltip-tab {
+  display: block;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings button.fr.primary {
+  font-size: 13px;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings .poup-contntarea {
+  line-height: normal;
+  height: auto;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: left;
+  height: 96px;
+  word-break: break-word;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings textarea::placeholder {
+  line-height: 19px;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings {
+  width: 464px;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings .poup-contntarea p {
+  white-space: pre-wrap;
+  line-height: 21px;
+  position: static;
+  transform: unset;
+}
+
+.britypopup-box.smallsize.autosizepopup.new-popup-settings .brity-title {
+  margin-bottom: 12px;
+}

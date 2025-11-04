@@ -1,0 +1,380 @@
+.brityleftmenu.brityhidemenu h2 span {
+  right: 20px;
+  height: 0px;
+}
+
+.brityleftmenu.brityhidemenu .brity-menubar.brityhideitems ul li {
+  position: unset;
+}
+
+/* For hide Menu */
+.brityleftmenu.brityhidemenu .brity-menubar.brityhideitems {
+  overflow: auto;
+  overflow-x: hidden;
+  height: calc(100% - 33px);
+}
+
+.brityleftmenu.brityhidemenu .brity-menubar.brityhideitems ul li a {
+  min-height: unset;
+  padding: 0;
+  margin-top: 4px;
+}
+
+.brity-menubar.brityhideitems li span {
+  position: absolute;
+  left: 55px !important;
+  top: unset !important;
+  right: unset;
+  bottom: unset;
+  white-space: nowrap;
+}
+
+a:hover .britytooltip {
+  display: block;
+}
+
+.brityleftmenu.brityhidemenu .brity-menubar.brityhideitems ul li a:hover .britytooltip {
+  display: block;
+  margin-top: -23px;
+}
+
+/* For GNB new Header KTKM brity */
+.common-ktkm-header {
+  float: left;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.gnb-headlogo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+}
+
+.gnb-headlogo span {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.dropdownmodify.language-drops .dropdown-content {
+  right: 0;
+  top: 60px;
+  min-width: 83.63px;
+}
+
+.dropdownmodify.language-drops button.dropbtn {
+  border: none;
+  width: auto;
+  height: unset;
+  line-height: normal;
+  position: relative;
+  padding-right: 30px;
+}
+
+.dropdownmodify.language-drops svg {
+  top: 4px !important;
+}
+
+.dropdownmodify.profile-data a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.dropdownmodify.profile-data a img {
+  width: 100%;
+}
+
+.dropdownmodify.profile-data {
+  margin-top: 22px;
+  margin-left: 10px;
+}
+
+.dropdownmodify.profile-data .profile-dropdowncontent {
+  width: 258px;
+  height: 208px;
+  padding: 24px 16px 16px;
+  border-radius: 8px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.01);
+  background-color: #fff;
+  right: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prfl-img {
+  float: left;
+  width: 100%;
+}
+
+.prfl-position {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.prfl-teams {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.prfl-img img {
+  width: 56px;
+  float: left;
+}
+
+.prfl-signout {
+  float: left;
+  height: 42px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+  line-height: 42px;
+  position: absolute;
+  bottom: 16px;
+  cursor: pointer;
+}
+
+.prfl-signout span {
+  line-height: 18px;
+  display: block;
+  float: left;
+  padding-left: 4px;
+  font-size: 14px;
+}
+
+.prfl-signout img {
+  float: left;
+}
+
+.prfl-name {
+  float: left;
+  width: 100%;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  text-align: left;
+}
+
+.dropdownmodify.profile-data a span {
+  background: #666;
+  border-radius: 34px;
+  display: inline-block;
+  line-height: 34px;
+  text-align: center;
+  width: 34px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.prfl-img span {
+  background: #666;
+  border-radius: 34px;
+  display: inline-block;
+  line-height: 34px;
+  text-align: center;
+  width: 34px;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+}
+
+.prfl-signout img {
+  cursor: pointer;
+}
+
+.dropdown-content option.activated {
+  color: #00a4e8;
+  background: rgba(42, 130, 240, 0.14);
+}
+
+/* For GNB Tooltip */
+.brity-menubar ul li a:hover+span.britytooltip.notHideMenu {
+  display: block;
+}
+
+.brity-menubar ul li a span.britytooltip.notHideMenu {
+  top: unset;
+  bottom: -24px;
+  left: 30px;
+  width: auto;
+  right: unset;
+  position: fixed;
+  height: 29px;
+}
+
+/* For GNB Tooltip */
+
+.brity-menubar ul li ul li:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.brity-menubar.brityhideitems ul li ul li:hover {
+  background: rgba(0, 0, 0, 0.08);
+  margin-left: -7px;
+  width: 40px !important;
+  border-radius: 4px;
+  padding-left: 7px;
+}
+
+.brity-menubar.brityhideitems ul li ul li.hideactivate:hover {
+  padding-left: 0px;
+}
+
+.lnb-conatiner-area {
+  display: flex;
+  position: relative;
+  cursor: default;
+  user-select: none;
+}
+
+.brityleftmenu span.lnb-main-title {
+  position: static;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100% - 32px);
+}
+
+span.dot {
+  display: block;
+  width: 2px;
+  height: 2px;
+  background-color: #5a5a5a;
+}
+
+.resize-divider.right {
+  position: absolute;
+  cursor: col-resize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 8px;
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+  top: 0;
+  left: calc(100% - 1px);
+}
+
+.resize-divider:hover {
+  border-color: #5a5a5a;
+}
+
+.resize-divider-dot {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brityleftmenu h2 {
+  padding: 0;
+  width: 100%;
+  float: left;
+  opacity: 0.9;
+  font-size: 17.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+  height: 52px;
+  line-height: 52px;
+  position: relative;
+  line-height: 52px;
+  position: relative;
+}
+
+.brityleftmenu h2 span {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+.brity-footer {
+  float: left;
+  width: calc(100% - 20px);
+}
+
+.brity-footer li img {
+  width: 100%;
+  max-width: 160px;
+}
+
+.container.big-one-size .brityleftmenu .brity-menubar {
+  height: calc(100% - 185px);
+}
+
+.logo-svg {
+  flex: 0 0 auto;
+  width: 45px;
+  margin-left: 0px;
+  margin-top: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.logo-title {
+  flex: 1;
+  margin-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.logo-sub-title {
+  flex-basis: 100%;
+  font-size: 18px !important;
+  margin-left: 7px;
+  margin-top: -10px;
+}
+
+.fl.gnb-headlogo {
+  width: unset;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 11px;
+}
+
+.brity-no-logo .gnb-headlogo span {
+  font-size: 18px;
+}
+
+.brity-no-logo .header-title {
+  margin-top: 18.5px;
+}

@@ -1,0 +1,63 @@
+table.userpolicy.privacy-policy tr td {
+  width: 6%;
+}
+
+table.userpolicy.privacy-policy tr td:nth-child(2) {
+  width: 27%;
+}
+
+table.userpolicy.privacy-policy tr th {
+  width: 6%;
+}
+
+table.userpolicy.privacy-policy tr th:nth-child(2) {
+  width: 27%;
+}
+
+.chractwithnumber.chracterfortextarea textarea {
+  width: 324px;
+
+}
+
+.chractwithnumber.chracterfortextarea {
+  float: left;
+  width: 100%;
+}
+
+.content-sides.more-content-textarea {
+  width: calc(100% - 150px);
+}
+
+.content-sides.more-content-textarea textarea {
+  width: 100%;
+  float: left;
+  min-height: 380px;
+}
+
+table.userpolicy.privacy-policy tr td:nth-child(2) span.britytooltip {
+  width: 45% !important;
+  max-width: unset;
+}
+
+.general-info-brity.infowith-inputs.same-lineheights.char-count .chars {
+  bottom: -22px !important;
+}
+
+.general-info-brity.infowith-inputs.same-lineheights.char-count .content-sides.error-on .chars {
+  bottom: -2px !important;
+}
+
+.figma-error-slk-prvcy {
+  margin-left: 30px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(237, 59, 47);
+  padding-top: 4px;
+}
+
+.content-sides.more-content-textarea.error-on textarea {
+  border: 1px solid rgba(237, 59, 47, 1);
+}
+

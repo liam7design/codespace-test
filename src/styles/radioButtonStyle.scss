@@ -1,0 +1,34 @@
+/* standard radio for global site start*/
+.standard-radio.radio-global-normal em {
+  padding-left: 25px;
+  font-style: normal;
+  margin-right: 30px;
+  float: left;
+  font-size: 13px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.standard-radio.radio-global-normal label.britychecks {
+  width: auto;
+}
+
+.standard-radio.radio-global-normal label.britychecks input[type="radio"] {
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.standard-radio.radio-global-normal.no-table label.britychecks span.checkmark.radios {
+  margin-left: 0px;
+  margin-top: 7px;
+}
+.content-sides .standard-radio.radio-global-normal {
+  margin-left: 30px;
+}
+
+.popup-content .content-sides .standard-radio.radio-global-normal {
+  margin-left: 12px;
+}
+
+/* standard radio for global site end*/

@@ -1,0 +1,894 @@
+/* For acees control & all new css */
+.acces-config-slider {
+  float: left;
+  width: 100%;
+  padding: 8px 32px 0;
+  height: 68px;
+}
+
+.acces-text {
+  float: left;
+  width: 120px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 13px;
+
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.slider-off-on {
+  float: left;
+  width: auto;
+}
+
+.status-activation {
+  height: 30px;
+}
+
+.slider-off-on p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.status-activation .statusname {
+  margin-left: 6px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 13px;
+
+  font-weight: 400;
+  line-height: 20px;
+  display: inline-block;
+  word-wrap: break-word;
+  float: left;
+  margin-top: -2px;
+}
+
+.alloed-ip-area {
+  float: left;
+  width: 100%;
+  padding: 0 32px;
+  height: 48px;
+  line-height: 48px;
+  position: relative;
+}
+
+.alloed-ip-area > span.simpltxt {
+  color: black;
+  font-size: 16px;
+
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+  float: left;
+}
+
+.alloed-ip-area img {
+  padding-top: 17px;
+  float: left;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.status-activation label.switch {
+  float: left;
+}
+
+.table-section.figma-tables table.withcheckbox tr th:nth-child(1) {
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+}
+
+.table-section.figma-tables table.withcheckbox tr td:nth-child(1) {
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr th:nth-child(2) {
+  width: 26%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr td:nth-child(2) {
+  width: 26%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr th:nth-child(3) {
+  width: 26%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr td:nth-child(3) {
+  width: 26%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr th:nth-child(4) {
+  width: 20%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr td:nth-child(4) {
+  width: 20%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr th:nth-child(5) {
+  width: 26%;
+}
+
+table.userpolicy.withcheckbox.acess-control-table tr td:nth-child(5) {
+  width: 26%;
+}
+
+.table-section.figma-tables table tr td {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.table-section.figma-tables table tr th {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.brity-tabmenu.figmatabing ul li {
+  color: black;
+  font-size: 14px;
+
+  font-weight: 700;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+.table-section.figma-tables .total-users select {
+  width: auto;
+  width: auto;
+  margin-left: 10px;
+}
+
+.search-details.figma-search .total-users {
+  width: auto;
+  float: left;
+  margin-right: 0;
+  padding-right: 16px;
+}
+
+.search-details.figma-search .table-header-button {
+  width: auto;
+  float: left;
+  margin: 0;
+  padding-left: 0;
+}
+
+.table-section.figma-tables button {
+  word-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.table-section.figma-tables button:disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* allowed IP table */
+table.userpolicy.withcheckbox.allowed-ip-table tr th:nth-child(2){width: 16%;}
+table.userpolicy.withcheckbox.allowed-ip-table tr td:nth-child(2){width: 16%;}
+
+table.userpolicy.withcheckbox.allowed-ip-table tr th:nth-child(3){width: 16%;}
+table.userpolicy.withcheckbox.allowed-ip-table tr td:nth-child(3){width: 16%;}
+
+table.userpolicy.withcheckbox.allowed-ip-table tr th:nth-child(4){width: 52%;}
+table.userpolicy.withcheckbox.allowed-ip-table tr td:nth-child(4){width: 52%;}
+
+.alloed-ip-area img:hover + span.britytooltip.optimizehover {
+  display: block;
+}
+
+.alloed-ip-area span.britytooltip.optimizehover {
+  bottom: unset;
+  top: 40px;
+  left: 201px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.table-section.figma-tables table tr.blankimage p.blankimage {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.britypopup-box.smallsize.autosizepopup .main-buttonaction {
+  position: static;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* Figma apopup design */
+.britypopup-box.figmapopup .title-areas h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.britypopup-box.figmapopup .brity-title {
+  margin-bottom: 12px;
+}
+
+.britypopup-box.figmapopup .general-info-brity ul li label {
+  color: rgba(0, 0, 0, 0.9);
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.britypopup-box.figmapopup .general-info-brity ul li {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
+  min-height: unset;
+  margin-bottom: 6px;
+}
+
+.britypopup-box.figmapopup .general-info-brity.infowith-inputs textarea {
+  margin-left: 12px;
+  height: 104px;
+  resize: none;
+}
+
+.figma-popup-guidelines {
+  float: left;
+}
+
+.figma-popup-guidelines p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 4px;
+}
+
+.britypopup-box.figmapopup .main-buttonaction.posstatic {
+  border: none;
+}
+
+.britypopup-box.figmapopup .general-info-brity.infowith-inputs {
+  margin-bottom: 0;
+}
+
+.britypopup-box.figmapopup textarea::placeholder {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.britypopup-box.figmapopup .main-buttonaction.posstatic button.onlysolid {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.britypopup-box.figmapopup .main-buttonaction.posstatic button.primary {
+  color: rgba(255, 255, 255, 1);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.figma-error {
+  margin-left: 12px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(237, 59, 47, 1);
+  padding-top: 4px;
+}
+
+.content-sides.error-on input {
+  border: 1px solid rgba(237, 59, 47, 1) !important;
+}
+
+.britypopup-box.figmapopup .content-sides svg {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.britypopup-box.smallsize.autosizepopup .brity-title {
+  margin-bottom: 7px;
+}
+
+.poup-contntarea.min-pop-content {
+  height: 72px;
+  position: relative;
+}
+
+.poup-contntarea.min-pop-content p {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  pointer-events: none;
+}
+
+button.fr.primary.delete-primary {
+  background: rgba(237, 59, 47, 1);
+}
+
+/* add list popu design */
+.britypopup-box.figma-exception-add {
+  width: 1024px;
+  height: 780px;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.14);
+  padding: 0;
+  height: auto;
+}
+
+.britypopup-box.figma-exception-add .brity-title {
+  padding: 20px 24px 12px 24px;
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: 0;
+}
+
+.britypopup-box.figma-exception-add .popup-content {
+  width: 100%;
+  padding: 0px 24px;
+}
+
+.britypopup-box.figma-exception-add .popup-content .popup-table {
+  width: 67.21%;
+}
+
+.britypopup-box.figma-exception-add .popup-content .list-of-users {
+  width: 32.78%;
+  height: 658px;
+}
+
+.britypopup-box.figma-exception-add .popup-content .total-users {
+  padding: 0;
+  width: 642px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0;
+  width: 642px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.divider-popup-figma {
+  float: left;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: calc(100% - 48px);
+  margin-left: 24px;
+}
+
+.britypopup-box.figma-exception-add .drop-searchsection {
+  width: 166px;
+  height: 30px;
+  padding: 0px 8px 0px 12px;
+  margin-top: 6px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 4px 4px 0;
+}
+
+.britypopup-box.figma-exception-add .total-users select {
+  margin-left: 10px;
+  padding-left: 0;
+  width: auto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000;
+}
+
+.britypopup-box.figma-exception-add .drop-searchsection input[type='text'] {
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: auto;
+  width: calc(100% - 50px);
+}
+
+.britypopup-box.figma-exception-add table.popuptable {
+  height: 569px;
+  max-height: unset;
+  overflow-x: hidden;
+  display: block;
+}
+
+.britypopup-box.figma-exception-add .userlist-area h4 {
+  height: 44px;
+  line-height: 44px;
+  padding-left: 4px;
+}
+
+.britypopup-box.figma-exception-add .userlist-area li {
+  height: 32px;
+  width: 100%;
+  overflow: visible;
+}
+
+.britypopup-box.figma-exception-add .userlist-area li:first-child {
+  height: auto;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.exception-figma-fix {
+  float: left;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #dbdbdb;
+  width: calc(100% - 24px);
+}
+
+.exception-figma-fix svg {
+  margin: 13px 4px;
+  cursor: pointer;
+}
+
+.exception-figma-fix svg:hover + span.britytooltip {
+  display: block;
+}
+
+.exception-figma-fix span.britytooltip {
+  bottom: -28px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.britypopup-box.figma-exception-add tr.emptyboxes p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  top: 50%;
+}
+
+.britypopup-box.figma-exception-add tr.emptyboxes {
+  height: 532px;
+}
+
+.britypopup-box.figma-exception-add tr.blankimage p.blankimage {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.britypopup-box.figma-exception-add tr.blankimage {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.britypopup-box.figma-exception-add tr.blankimag span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.britypopup-box.popupboxhides.figma-exception-add .list-of-users {
+  width: 100%;
+}
+
+.britypopup-box.figma-exception-add .popupclose {
+  right: 14px;
+  top: 16px;
+}
+
+/* tenant  info temporory css will be remove later*/
+.brity-modalcontainer.largepopup.smalllarge.unsetheight .britypopup-box {
+  height: auto;
+}
+
+.popup-table.fulltablepopup.popupformstyle .content-sides {
+  float: left;
+}
+
+.brity-modalcontainer.largepopup.smalllarge.unsetheight .main-buttonaction.posstatic {
+  margin-top: 0;
+  margin-bottom: -15px;
+}
+
+.popup-table.fulltablepopup.popupformstyle .general-info-brity.infowith-inputs {
+  padding: 0;
+}
+
+.popup-table.fulltablepopup.popupformstyle .general-info-brity.infowith-inputs input {
+  margin-left: 12px;
+}
+
+.popup-table.fulltablepopup.popupformstyle .general-info-brity.infowith-inputs ul li > label {
+  width: 88px;
+  float: left;
+}
+
+form.brityiframe.britythree.editpage.tenant-editing li.moretecxtinputs input[type='text'] {
+  width: calc(100% - 170px);
+  float: left;
+  display: block;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.brity-modalcontainer.largepopup.smalllarge .britypopup-box {
+  width: 464px;
+  height: 542px;
+  border-radius: 8px;
+}
+
+.brity-title.tilewithbrdr {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.britycustomtree .tree-node ul li input {
+  margin-right: 5px;
+}
+
+.britycustomtree .tree-node {
+  float: left;
+  width: 100%;
+  min-height: 400px;
+}
+
+.britycustomtree .tree-node svg {
+  width: 10px;
+  cursor: pointer;
+  float: left;
+  margin-right: 5px;
+  fill: #a5a5a5;
+  margin-top: -5px;
+}
+
+.britycustomtree .tree-node li span {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.britycustomtree .tree-node ul li.root ul {
+  float: left;
+  padding-left: 30px;
+  border-left: 1px dotted #666;
+  margin-left: 5px;
+}
+
+.britycustomtree .tree-node ul {
+  float: left;
+  width: 100%;
+}
+
+.britycustomtree .tree-node ul li {
+  float: left;
+  width: 100%;
+  line-height: 18px;
+}
+
+.britycustomtree .tree-node ul li.root {
+  margin-bottom: 16px;
+}
+
+.custom-tree.britycustomtree {
+  height: 362px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+
+/* tenant  info temporory css will be remove later*/
+
+table tr.activatedrow {
+  background: #eaf3fd;
+}
+
+table.popuptable tr:hover {
+  background: #f2f2f2;
+}
+
+.popupColor {
+  background: #eaf3fd;
+}
+
+.britypopup-box.figma-exception-add .userlist-area ul li:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.britypopup-box.figma-exception-add .userlist-area ul li.activated {
+  background: #eaf3fd;
+  border-radius: 4px;
+  color: #2a82f0;
+}
+
+.dropdown-content option.activate {
+  color: #00a4e8;
+}
+
+/* search component global */
+
+.dropdownmodify.figmadropdowns .dropdown-content {
+  white-space: nowrap;
+}
+
+.dropdownmodify.figmadropdowns .dropdown-content a {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.dropdownmodify.figmadropdowns .dropdown-content li.activated {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.dropdownmodify.figmadropdowns button:focus {
+  background: #eaf3fd;
+  border: 1px solid #2a82f0;
+  color: rgba(42, 130, 240, 1);
+}
+
+.dropdownmodify.figmadropdowns button.dropbtn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  color: #000;
+}
+
+.dropdownmodify.figmadropdowns button.dropbtn img {
+  top: 10px;
+}
+
+.dropdownmodify.figmadropdowns.dual-search .dropdown-content {
+  min-width: 200px;
+  width: auto;
+  left: 0;
+  max-width: 200px;
+}
+
+.dropdownmodify.figmadropdowns.dual-search {
+  position: unset;
+}
+
+/* Figma table selected data */
+.search-details.figma-search .table-header-button.figma-selection {
+  padding-left: 30px;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.selected {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+.search-details.figma-search .table-header-button.figma-selection span.deselected {
+  font-weight: 700;
+  color: #2a82f0;
+}
+
+.dropdownmodify.figmadropdowns.dual-search li span {
+  color: rgba(237, 59, 47, 1);
+}
+
+.dropdownmodify.figmadropdowns.dual-search li.srched-by {
+  font-weight: bold;
+}
+
+.dropdownmodify.figmadropdowns.dual-search li {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  color: #000;
+  height: 32px;
+  padding: 7px 8px 8px 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.drop-searchsection.cus-search-popup.posrel > svg {
+  right: 31px;
+  position: absolute;
+  left: unset;
+  top: 6px;
+}
+
+.chars {
+  position: absolute;
+  right: 0;
+  color: #a5a5a5;
+  font-size: 11px !important;
+  bottom: -12px !important;
+}
+
+table.popuptable.popup-table-morecouloumn tr th {
+  min-width: 100px;
+  max-width: 100px;
+  width: 15%;
+}
+
+table.popuptable.popup-table-morecouloumn tr td {
+  min-width: 100px;
+  max-width: 100px;
+  width: 15%;
+}
+
+.figma-list-users {
+  overflow: auto;
+  max-height: 62vh;
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.drop-searchsection.cus-search-popup:hover button.dropbtn {
+  border: 1px solid #2a82f0;
+  background: none;
+  border-right: none;
+}
+
+.drop-searchsection.cus-search-popup:hover {
+  border: 1px solid #2a82f0;
+  background: none;
+}
+
+.drop-searchsection.cus-search-popup .dropdownmodify button {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  margin-top: -12px;
+  width: auto;
+  min-width: 74px;
+  right: 12px;
+}
+
+.userlist-area ul li.activated {
+  background: #eaf3fd;
+  border-radius: 4px;
+  color: #2a82f0;
+}
+
+form.brityiframe .form-header span.britytooltip.optimizehover {
+  bottom: unset;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: auto;
+  min-width: 316px;
+  padding: 4px 10px;
+}
+
+.bortop {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+svg.close-bottom-activated path {
+  fill-opacity: 1 !important;
+  cursor: default;
+}
+
+.userlist-area ul li:hover em {
+  max-width: calc(100% - 20px);
+}
+
+.exception-figma-fix.deactivate-show-arrow-curser svg {
+  cursor: default !important;
+}
+
+.popup-table .without-pagination {
+  border-top: 1px solid #dbdbdb;
+  height: 38px;
+  padding-top: 7px;
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.drop-searchsection.cus-search-popup.cross-on input {
+  max-width: calc(100% - 40px) !important;
+}
+
+.custom-searchengine-withdrop {
+  float: right;
+  margin-right: 30px;
+  width: 200px;border: 1px solid rgba(0, 0, 0, 0.20);border-radius: 8px;
+}
+
+
+.right-searchnamesection {
+  width: 123px;
+  float: left;
+  position: relative;
+  border-left: 1px solid rgba(0, 0, 0, 0.20);
+  padding-left: 12px;
+}
+
+.custom-searchengine-withdrop .right-searchnamesection button {
+  
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  top: 5px;
+}
+
+.right-searchnamesection input {
+  border: none;
+  width: 74%;
+  height: 30px;border-radius: 8px;
+}
+.custom-searchengine-withdrop .dropdownmodify {
+  width: 75px;
+}
+.custom-searchengine-withdrop .dropdownmodify button:focus {
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+.custom-searchengine-withdrop .dropdownmodify button {
+  width: 68%;
+  border: none;border-radius: 8px;padding-bottom: 0;line-height: 30px;padding-right: 0;padding-left: 8px;
+}
+.custom-searchengine-withdrop:hover {
+  border: 1px solid #2A82F0;
+  background: none;
+}
+.popup-table.fulltablepopup.popupformstyle .general-info-brity.infowith-inputs input:disabled {
+  background: rgba(0, 0, 0, 0.04);
+}
+.custom-searchengine-withdrop button:hover {
+  background: none !important;
+  border: none !important;
+}
+.britypopup-box.figmapopup .general-info-brity.infowith-inputs textarea {
+  padding-right: 12px;
+  font-size: 13px;
+  line-height: 20px; width: 324px;
+}
+
+.britypopup-box.figmapopup .general-info-brity.infowith-inputs.width-update input{
+  line-height: 20px; width: 324px;
+}
