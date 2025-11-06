@@ -400,6 +400,7 @@ table.userlist.workspaceconfig tr td span.twoline-tooltip:hover+span.britytoolti
 /* for two line tooltip */
 span.twoline-tooltip {
   display: -webkit-box !important;
+  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   max-width: 100%;

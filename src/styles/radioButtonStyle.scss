@@ -1,12 +1,12 @@
 /* standard radio for global site start*/
 .standard-radio.radio-global-normal em {
+  display: block;
+  float: left;
   padding-left: 25px;
   font-style: normal;
   margin-right: 30px;
-  float: left;
   font-size: 13px;
   line-height: 30px;
-  display: inline-block;
 }
 
 .standard-radio.radio-global-normal label.britychecks {
