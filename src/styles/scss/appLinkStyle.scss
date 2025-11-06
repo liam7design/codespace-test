@@ -1,0 +1,43 @@
+.general-info-brity.infowith-inputs.width-update.fullwidthdropdowns.popup-one-line-label {
+	.content-sides {
+		width: calc(100% - 122px);
+		input {
+			width: 100%;
+		}
+	}
+}
+.popup-table.fulltablepopup.popupformstyle {
+	.general-info-brity.infowith-inputs.width-update.fullwidthdropdowns.popup-one-line-label {
+		label {
+			width: 110px;
+		}
+	}
+}
+.general-info-brity.infowith-inputs.adjustAppLinkAdd {
+	li {
+		.content-sides.error-on {
+			span.characters {
+				right: -10px;
+			}
+		}
+		.content-sides {
+			span.characters {
+				right: -10px;
+			}
+		}
+	}
+}
+.britypopup-box.figmapopup {
+	.general-info-brity.adjustAppLinkAdd {
+		ul {
+			li {
+				min-height: 42px;
+			}
+		}
+	}
+}
+.adjustAppLinkError {
+	.figma-error {
+		padding-left: 20px;
+	}
+}

@@ -1,0 +1,343 @@
+/* medium size popup changes */
+.brity-modalcontainer.largepopup.unsetheight.mediumbritypopup {
+	.britypopup-box {
+		width: 704px;
+		height: auto;
+		border-radius: 8px;
+	}
+	.main-buttonaction.posstatic {
+		height: auto;
+	}
+}
+.general-info-brity.infowith-inputs.mediumsizepopupform {
+	ul {
+		li {
+			>label {
+				width: 120px !important;
+			}
+			input[type='text'] {
+				width: 100%;
+			}
+		}
+	}
+}
+form.brityiframe.britythree.editpage.enabledisablestatus {
+	ul {
+		li.parent {
+			ul.openmenu {
+				li {
+					>label {
+						line-height: normal;
+						padding: 13px 0 13px 8px;
+					}
+				}
+				li.newcenteredcss {
+					>label {
+						padding-top: 0;
+						padding-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}
+form.brityiframe.britythree.editpage.tenant-editing {
+	button.dropbtn {
+		span {
+			white-space: nowrap;
+			overflow: hidden;
+			display: block;
+			width: calc(100% - 20px);
+		}
+		img {
+			top: 8px !important;
+			right: 8px;
+		}
+	}
+	.form-header {
+		>label {
+			padding-left: 0 !important;
+			margin-left: 10px !important;
+			width: 33%;
+		}
+	}
+}
+form.brityiframe.britythree {
+	.dropdownmodify {
+		button.dropbtn {
+			white-space-collapse: collapse;
+			text-wrap: wrap;
+			line-height: 30px !important;
+			min-width: 130px !important;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: auto;
+			max-width: unset;
+			padding-right: 28px;
+		}
+		.dropdown-content {
+			top: 38px;
+		}
+	}
+	.dropdownmodify.feature-policy-dropdown {
+		button.dropbtn {
+			min-width: 264px !important;
+		}
+		.dropdown-content {
+			min-width: 264px !important;
+		}
+	}
+	.policycontent.view-nocheckbox {
+		.fl {
+			word-break: keep-all;
+			width: calc(100% - 150px);
+			line-height: 21px !important;
+		}
+	}
+	ul {
+		li.parent {
+			ul {
+				li {
+					.toggle-slide-brity {
+						label.switch {
+							float: right !important;
+							margin-right: 50px !important;
+						}
+						span.statusname {
+							float: right !important;
+							right: 0 !important;
+							width: 50px !important;
+							left: unset !important;
+							text-align: left !important;
+							top: 12px !important;
+						}
+					}
+					.toggle-slide-brity.org-toggle {
+						label.switch {
+							margin-right: 70px !important;
+						}
+						span.statusname {
+							width: 70px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+form.brityiframe.britythree.editpage {
+	.dropdownmodify {
+		button.dropbtn {
+			img {
+				top: 9px !important;
+				right: 9px;
+			}
+		}
+	}
+	.form-header {
+		>label {
+			&:nth-child(2) {
+				float: left;
+				max-width: unset;
+				position: relative !important;
+				margin-left: 10px !important;
+				padding-left: 0 !important;
+				width: 33%;
+				text-align: right;
+				padding-right: 10px;
+			}
+		}
+		>label.posrel.kr-toggle-head {
+			padding-right: 35px;
+		}
+		>label.posrel.org-posrel.kr-toggle-head {
+			padding-right: 65px;
+		}
+	}
+	ul {
+		li {
+			>label {
+				position: absolute !important;
+				top: 50% !important;
+				width: auto !important;
+				transform: translate(0, -50%);
+			}
+			.toggle-slide-brity {
+				position: relative !important;
+				left: 0;
+				margin: auto;
+				text-align: right !important;
+				float: left;
+				padding: 14px 8px;
+				width: calc(34.23% - 70px);
+				margin-right: 70px;
+			}
+			.toggle-slide-brity.org-toggle {
+				width: calc(34.23% - 70px);
+				margin-right: 70px;
+			}
+		}
+	}
+}
+.content-area-scroll.mng-policy {
+	form.brityiframe.britythree.editpage.tenant-editing {
+		.policycontent {
+			width: 67.1%;
+		}
+	}
+}
+.general-info-brity.mng-fp.infowith-inputs {
+	li {
+		.content-sides {
+			span.characters {
+				right: -12px;
+				bottom: -21px;
+			}
+		}
+	}
+}
+.form-header.threeform.onlyFeaturepolicyEdit {
+	>label {
+		position: absolute;
+		left: 0;
+	}
+	label.posrel.org-posrel {
+		&:nth-child(2) {
+			&:before {
+				right: 180px;
+			}
+		}
+	}
+	label {
+		&:nth-child(2) {
+			&:before {
+				background: #00000024;
+				content: '';
+				display: block;
+				height: 14px;
+				left: unset;
+				margin-left: 0;
+				position: absolute;
+				top: 13px;
+				width: 1px;
+				right: 155px;
+			}
+		}
+	}
+}
+form.brityiframe.britythree.editpage.only-fp-three {
+	ul {
+		li {
+			>label {
+				max-width: 22% !important;
+			}
+		}
+	}
+}
+form.brityiframe {
+	ul {
+		li.parent {
+			ul {
+				li {
+					position: relative;
+				}
+			}
+		}
+	}
+}
+form.brityiframe.britythree.editpage.only-two-colm-form {
+	ul {
+		li {
+			>label {
+				margin: auto;
+				float: left !important;
+				padding: 10px 8px !important;
+				position: static !important;
+				width: 34.23% !important;
+				text-align: left !important;
+				transform: unset !important;
+			}
+		}
+	}
+}
+span.britytooltip.optimizehover.mouseover-i {
+	display: block !important;
+	position: absolute;
+	top: 37px;
+	right: -315px;
+}
+.kr-toggle-head {
+	span.britytooltip.optimizehover.mouseover-i {
+		right: -290px;
+	}
+}
+.org-posrel.kr-toggle-head {
+	span.britytooltip.optimizehover.mouseover-i {
+		right: -255px;
+	}
+}
+.brity-modalcontainer.largepopup.unsetheight.mediumbritypopup.add-update-policy {
+	.britypopup-box {
+		width: 917px;
+	}
+}
+.add-update-policy {
+	.general-info-brity.infowith-inputs.mediumsizepopupform {
+		ul {
+			li {
+				>label {
+					width: 200px !important;
+				}
+				.content-sides {
+					width: calc(100% - 212px);
+				}
+			}
+		}
+	}
+	.content-sides.brityteantsavemodify {
+		input {
+			width: calc(100% - 161px) !important;
+		}
+	}
+	.general-info-brity.infowith-inputs {
+		li {
+			.content-sides.brityteantsavemodify {
+				a {
+					min-width: fit-content;
+					width: 162px;
+					position: absolute;
+					right: -12px;
+				}
+			}
+			padding: 0px 0px;
+		}
+		margin-bottom: unset;
+	}
+	.figma-error {
+		padding-top: 0px;
+	}
+}
+button.search-ruleid-btn {
+	display: inline-block;
+	float: left;
+	margin-left: 0;
+	text-align: center;
+	text-decoration: none;
+	line-height: 28px;
+	color: #333;
+	border-radius: 0 4px 4px 0;
+	z-index: 1;
+	background: #fff;
+	height: 30px;
+	margin-top: 1px;
+	min-width: fit-content;
+	width: 162px;
+	position: absolute;
+	right: -12px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+}
+.content-sides.error-on {
+	button.search-ruleid-btn {
+		border: 1px solid rgba(0, 0, 0, 0.14) !important;
+	}
+}

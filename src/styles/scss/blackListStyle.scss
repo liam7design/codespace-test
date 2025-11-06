@@ -1,0 +1,14 @@
+table.userpolicy.withcheckbox.black-list {
+	tr {
+		th {
+			&:last-child {
+				min-width: 300px;
+			}
+		}
+		td {
+			&:last-child {
+				min-width: 300px;
+			}
+		}
+	}
+}

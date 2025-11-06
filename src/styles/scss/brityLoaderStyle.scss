@@ -1,0 +1,52 @@
+@-webkit-keyframes ur-progress__spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes ur-progress__spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+.main-loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+.ur-progress__wrapper.ur-progress-medium.ur-progress__wrapper-none {
+	position: absolute;
+	top: calc(50% - 60px);
+	right: 0;
+	left: 0;
+}
+.ur-progress__circle-medium {
+	width: 60px;
+	height: 60px;
+	-webkit-animation: 0.9s linear 0s infinite normal none running ur-progress__spin;
+	animation: 0.9s linear 0s infinite normal none running ur-progress__spin;
+}
+.ur-progress__circle {
+	display: block;
+	margin: 0 auto;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.ur-progress__circle-background-normal {
+	stroke: #f7f7f7;
+}
+.ur-progress__circle-progress-normal {
+	stroke: #2a82f0;
+}

@@ -1,0 +1,68 @@
+table.division-table.user-policy-dividation.default-policy {
+	tr {
+		th {
+			&:first-child {
+				max-width: unset;
+				min-width: unset;
+				width: 140px;
+			}
+			&:nth-child(3) {
+				width: 34%;
+				padding: 0 8px;
+			}
+			&:nth-child(4) {
+				width: 34%;
+				padding: 0 8px;
+			}
+		}
+	}
+}
+.grey-container-select-changes {
+	float: left;
+	width: 100%;
+	background: #f9f9f9;
+	padding: 0;
+	max-height: 429px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	h4 {
+		padding-bottom: 20px;
+		font-size: 18px;
+	}
+}
+table.userpolicy.workspacelist {
+	tr {
+		th.sub-parts {
+			min-width: 350px;
+			max-width: unset;
+		}
+	}
+}
+span.fuyllrow {
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+th.header-highlight {
+	background: #00000014;
+	color: red;
+	font-weight: bold;
+}
+td.row-highlight {
+	background: #00000014;
+	color: #000;
+}
+table.division-table {
+	border-collapse: unset !important;
+}
+.brity-modalcontainer.largepopup.rendering-issue {
+	.britypopup-box {
+		transform: unset;
+		margin: auto;
+		position: static;
+	}
+}
+.britypopup-box.figma-exception-add.divided-table-popup.data-change {
+	width: 1460px;
+}

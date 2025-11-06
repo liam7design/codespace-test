@@ -1,0 +1,17 @@
+.britypopup-box.smallsize.autosizepopup {
+	height: auto !important;
+	.main-buttonaction {
+		position: static;
+		padding-top: 12px;
+		padding-bottom: 16px;
+		margin-bottom: -16px;
+	}
+	.brity-title {
+		margin-bottom: 14px;
+	}
+}
+.scrollable {
+	padding-right: 5px;
+	max-height: calc(100vh - 200px);
+	overflow-y: auto;
+}

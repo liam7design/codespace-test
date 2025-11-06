@@ -1,0 +1,325 @@
+.top-action-area.figma-top-action.topaction-appdonwload {
+	height: auto;
+	.select_box.figma-select-boxing.date-boxes.keyword-changes {
+		width: 240px;
+		max-width: 240px;
+		width: 15%;
+		input {
+			width: 240px;
+			max-width: 240px;
+			width: 100%;
+		}
+	}
+	.select_box.figma-select-boxing.date-boxes {
+		button {
+			width: 240px;
+			max-width: 240px;
+			width: 15%;
+		}
+		button.dropbtn {
+			width: 100%;
+		}
+	}
+	input[type='text'] {
+		padding-right: 8px;
+		padding-right: 8px;
+	}
+	.dropdownmodify {
+		width: 100%;
+	}
+	label {
+		min-width: 100px;
+		max-width: 120px;
+		width: 1%;
+	}
+	label.ml150 {
+		margin-left: 9.5%;
+	}
+}
+table.wihout-checks-boxes.appdownload-tbl {
+	tr {
+		td {
+			&:nth-child(4) {
+				width: 1%;
+				min-width: 100px;
+			}
+			&:nth-child(5) {
+				width: 1%;
+				min-width: 100px;
+			}
+			width: 8%;
+			&:nth-child(8) {
+				min-width: 100px;
+				width: 1%;
+			}
+		}
+		th {
+			&:nth-child(4) {
+				width: 1%;
+				min-width: 100px;
+			}
+			&:nth-child(5) {
+				width: 1%;
+				min-width: 100px;
+			}
+			width: 8%;
+			&:nth-child(8) {
+				min-width: 100px;
+				width: 1%;
+			}
+		}
+	}
+}
+table.withcheckbox.appdownload-tbl {
+	tr {
+		th {
+			&:nth-child(4) {
+				min-width: 120px;
+				width: 1%;
+			}
+			&:nth-child(5) {
+				width: 1%;
+				min-width: 100px;
+			}
+			&:nth-child(6) {
+				width: 1%;
+				min-width: 100px;
+			}
+			width: 13%;
+			&:nth-child(10) {
+				width: 15%;
+			}
+			&:nth-child(11) {
+				width: 15%;
+			}
+		}
+		td {
+			&:nth-child(4) {
+				min-width: 120px;
+				width: 1%;
+			}
+			&:nth-child(5) {
+				width: 1%;
+				min-width: 100px;
+			}
+			&:nth-child(6) {
+				width: 1%;
+				min-width: 100px;
+			}
+			width: 13%;
+			&:nth-child(10) {
+				width: 15%;
+			}
+			&:nth-child(11) {
+				width: 15%;
+			}
+		}
+	}
+}
+.dropdownrightzero {
+	right: 0;
+	right: 0;
+}
+input {
+	&:disabled {
+		background: rgba(0, 0, 0, 0.04) !important;
+	}
+}
+button.dropbtn {
+	&:disabled {
+		background: rgba(0, 0, 0, 0.04) !important;
+	}
+}
+.adding-set {
+	float: left;
+	width: 35%;
+	padding: 10px 0;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	min-height: unset;
+	ul {
+		li {
+			float: left;
+			width: 100%;
+			line-height: 32px;
+			border-bottom: 1px solid #ccc;
+			color: #666;
+			font-size: 13px;
+			cursor: pointer;
+			font-size: 12px;
+			padding: 0 10px;
+			&:last-child {
+				border: none;
+			}
+		}
+		li.add-title {
+			background: #efefef;
+			margin-top: -10px;
+			margin-left: 0;
+			width: 100%;
+			text-align: center;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 0 8px;
+			text-align: left;
+			span {
+				font-size: 14px;
+				letter-spacing: unset;
+			}
+			svg {
+				position: relative;
+				top: 8px;
+				float: right;
+			}
+		}
+	}
+}
+.set-table {
+	padding: 0 30px;
+}
+.action-button.figma-action.all-button-left {
+	button {
+		float: left;
+		margin-right: 8px;
+		width: auto;
+	}
+	padding: 0;
+}
+.select_box.figma-select-boxing.date-boxes {
+	width: 108px;
+}
+.adding-set.folded-set {
+	width: 30%;
+	min-height: unset;
+	border-radius: 4px;
+	padding: 10px 0 0 0;
+	.total-comp {
+		font-size: 13px;
+		padding: 0 0;
+		font-weight: normal;
+		margin-top: -5px;
+	}
+}
+.set-table.fl.widthfull.mT50 {
+	width: 100%;
+}
+.all-sets-container {
+	float: left;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	.adding-set {
+		width: 100%;
+		&:nth-child(3) {
+			margin-right: 0;
+		}
+	}
+	.adding-set.on-drag {
+		border: 1px dashed #2a82f0;
+		ul {
+			opacity: 1;
+			background: rgba(177, 229, 255, 0.2) !important;
+			li {
+				opacity: 0.7;
+				background: rgba(177, 229, 255, 0.2) !important;
+			}
+			li.add-title {
+				opacity: 0.7;
+				background: rgba(177, 229, 255, 0.7) !important;
+			}
+		}
+	}
+	.jira-conatiner {
+		width: 32%;
+		float: left;
+		margin-right: 2%;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+.multiple-dragged {
+	span {
+		position: absolute;
+		background: #f45743;
+		top: -8px;
+		right: -4px;
+		color: #fff;
+		width: 23px;
+		line-height: 23px;
+		border-radius: 23px;
+		text-align: center;
+		font-size: 13px;
+		font-weight: normal;
+		opacity: 1 !important;
+	}
+	display: block;
+	top: -61px;
+	width: 516px;
+	font-size: 12px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	background: #fff;
+	right: 26px;
+	padding-left: 8px;
+}
+.top-drodown-title {
+	.dropdown.dropdownmodify {
+		width: auto;
+	}
+}
+.appdownload-tbl {
+	tr.blankimage {
+		padding-bottom: 0;
+	}
+}
+.adding-set.folded-set.on-drag {
+	.css-1ni9l22-DropIndicator {
+		display: none;
+	}
+}
+table.appdownload-tbl {
+	tr {
+		th {
+			min-width: 40px;
+			max-width: 70px;
+		}
+		td {
+			min-width: 40px;
+			max-width: 70px;
+		}
+	}
+}
+.top-action-area.figma-top-action.topaction-appdonwload.min-width-adjust {
+	label {
+		min-width: 119px;
+	}
+}
+.appDownload-britySelect-box {
+	margin-top: unset;
+}
+.appDownload-selectbox {
+	margin-top: unset;
+}
+.topaction-appdonwload {
+	.dropdownmodify {
+		.dropdown-content {
+			width: 100%;
+		}
+		margin-top: unset;
+	}
+}
+.company-sub-org-width {
+	.dropdownmodify {
+		.dropdown-content {
+			min-width: 240px;
+			width: max-content;
+		}
+	}
+}
+.all-sets-container.fixDrag {
+	transform: translate(0, 0);
+	will-change: transform;
+}

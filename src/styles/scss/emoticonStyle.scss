@@ -1,0 +1,97 @@
+.general-info-brity.infowith-inputs.same-lineheights {
+	label {
+		line-height: normal;
+	}
+	li {
+		line-height: normal;
+		min-height: unset;
+	}
+	.content-sides.brityteantsavemodify {
+		button {
+			width: 116px;
+			height: 28px;
+			line-height: normal;
+			font-size: 12px;
+			background: none;
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			margin-left: 30px;
+			border-radius: 4px;
+		}
+	}
+}
+button.primary.upload-conditional {
+	display: inline-block;
+	float: left;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 28px;
+	border: none;
+	border-left: 1px solid rgba(0, 0, 0, 0.14);
+	margin-left: 8px;
+	border-radius: 4px;
+}
+button.primary.upload-conditional.disabled {
+	background: #dbdbdb !important;
+	color: #fff !important;
+	cursor: default;
+}
+.general-info-brity.infowith-inputs.same-lineheights.large-labels {
+	label {
+		width: 180px;
+	}
+}
+input[type='file'] {
+	display: none;
+}
+.hidden-file-input {
+	cursor: pointer;
+}
+.standard-radio.radio-global-normal {
+	label.britychecks {
+		span.checkmark.radios {
+			margin-left: 0px;
+			margin-top: 0px;
+		}
+	}
+}
+.content-sides.error-on.error-with-pad {
+	.figma-error {
+		padding-left: 20px;
+	}
+}
+.content-sides.brityteantsavemodify.whendisabled {
+	a {
+		opacity: 0.3;
+		border: 1px solid rgba(0, 0, 0, 0.14) !important;
+		height: 30px !important;
+		background: #fff;
+		pointer-events: none;
+	}
+	input {
+		width: 254px;
+		border-radius: 4px 0 0 4px !important;
+	}
+}
+.general-info-brity.infowith-inputs {
+	input {
+		background-color: #fff;
+		border: 1px solid rgba(0, 0, 0, 0.14);
+		border-radius: 4px;
+		height: 30px;
+		padding: 5px 6px 6px 12px;
+		width: 324px;
+		margin-left: 30px;
+	}
+}
+.content-sides.brityteantsavemodify.extra-padding-with-button {
+	input {
+		padding-right: 80px !important;
+	}
+}
+.content-sides.brityteantsavemodify {
+	a {
+		cursor: pointer;
+	}
+}

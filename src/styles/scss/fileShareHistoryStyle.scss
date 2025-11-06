@@ -1,0 +1,217 @@
+.custom-datepicker.picker-in-general.fileshare-picker {
+	.all-dates {
+		ul {
+			li {
+				margin-left: 0;
+				padding-left: 6px;
+				width: 38px;
+				padding-right: 6px;
+				&:hover {
+					border-radius: 28px !important;
+					width: 28px !important;
+					margin-left: 5px;
+					margin-right: 5px;
+					background: rgba(42, 130, 240, 0.14);
+					color: rgb(42, 130, 240);
+					font-weight: 700;
+					border-radius: unset;
+				}
+			}
+			li.filesharing-middle {
+				background: #2a82f0;
+				color: #fff;
+				font-weight: 700;
+				&:hover {
+					span {
+						background: rgb(225, 237, 253);
+						color: rgb(42, 130, 240);
+						font-weight: 700;
+						border-radius: 28px !important;
+						width: 28px !important;
+						display: block;
+						height: 28px;
+						position: relative;
+						top: -2px;
+						line-height: 28px;
+					}
+					background: #2a82f0;
+					border-radius: 0 !important;
+					margin: 0;
+					width: 38px !important;
+				}
+			}
+			li.filesharing-starting {
+				background: #2a82f0;
+				color: #fff;
+				font-weight: 700;
+				border-radius: 16px 0 0 16px;
+				&:hover {
+					span {
+						background: rgb(225, 237, 253);
+						color: rgb(42, 130, 240);
+						font-weight: 700;
+						border-radius: 28px !important;
+						width: 34px !important;
+						display: block;
+						height: 28px;
+						position: relative;
+						top: -2px;
+						line-height: 28px;
+						left: -1px;
+					}
+					background: #2a82f0;
+					border-radius: 16px 0 0px 16px !important;
+					margin: 0;
+					width: 38px !important;
+					padding-left: 0;
+				}
+			}
+			li.today-date {
+				width: 28px;
+				margin-left: 5px;
+				cursor: pointer;
+				margin-right: 5px;
+			}
+			li.selected-date {
+				width: 28px;
+				margin-left: 5px;
+				margin-right: 5px;
+				cursor: pointer;
+			}
+			li.filesharing-ending {
+				background: #2a82f0;
+				color: #fff;
+				font-weight: 700;
+				border-radius: 0 16px 16px 0;
+				&:hover {
+					span {
+						background: rgb(225, 237, 253);
+						color: rgb(42, 130, 240);
+						font-weight: 700;
+						border-radius: 28px !important;
+						width: 34px !important;
+						display: block;
+						height: 28px;
+						position: relative;
+						top: -2px;
+						line-height: 28px;
+						right: 0px;
+					}
+					background: #2a82f0;
+					border-radius: 0px 16px 16px 0 !important;
+					margin: 0;
+					width: 38px !important;
+				}
+			}
+		}
+	}
+	padding: 16px 10px 20px 14px;
+}
+.general-info-brity.infowith-inputs.labels-126 {
+	>ul {
+		>li {
+			&:first-child {
+				margin-top: 20px;
+			}
+		}
+	}
+	ul {
+		li {
+			>label {
+				width: 126px;
+			}
+		}
+	}
+}
+.custom-datepicker.picker-in-general {
+	.all-dates {
+		ul {
+			li {
+				min-height: unset;
+			}
+		}
+	}
+	.weekdays {
+		ul {
+			li {
+				min-height: unset;
+			}
+		}
+	}
+}
+svg.info-periods {
+	position: absolute;
+	top: 10px;
+	margin-left: 5px;
+	z-index: 99;
+	color: powderblue;
+	cursor: pointer;
+	&:hover {
+		+ {
+			span.britytooltip.selection-tooltip {
+				display: block !important;
+			}
+		}
+	}
+}
+.content-sides.slectbox-dates-space {
+	.dropdownmodify {
+		margin-left: 32px;
+		margin-right: 4px;
+	}
+	.select_box.figma-select-boxing.date-boxes {
+		margin-top: 0;
+	}
+	.tilt-figma {
+		line-height: 30px;
+	}
+}
+span.britytooltip.selection-tooltip {
+	width: max-content;
+	max-width: unset;
+	position: absolute;
+	left: -111px;
+	top: -29px;
+	height: 26px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 114%;
+		left: 35%;
+		transform: translate(-50%, -50%);
+		border-style: solid;
+		border-width: 9px 9px 0 9px;
+		border-color: #000 transparent transparent transparent;
+	}
+}
+span.britytooltip.selection-tooltip.korean-tooltip {
+	left: -47px;
+}
+.select_box.figma-select-boxing.date-boxes.slectbox-dates-space {
+	margin-left: 32px;
+}
+button.dwnload-selections {
+	width: 158px;
+	height: 28px;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	color: rgba(0, 0, 0, 0.9);
+	svg {
+		position: relative;
+		top: 3px;
+	}
+}
+li.today-date {
+	color: #fff;
+	background: #000;
+	border-radius: 28px;
+}
+div#file-share-history {
+	overflow: visible;
+}
+.dropdown-button-increased-width {
+	button.dropbtn {
+		width: 133px !important;
+	}
+}
